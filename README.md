@@ -1,1 +1,3 @@
-# bricksortingmachine.github.io
+---
+layout: home
+---
