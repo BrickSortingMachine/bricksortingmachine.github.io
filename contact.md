@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "PAGE-TITLE"
 permalink: /about/contact/
 ---
