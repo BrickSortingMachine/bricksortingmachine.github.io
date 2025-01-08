@@ -6,20 +6,14 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
+$type-size-1 : 39.056px;  // ~
+$type-size-2 : 31.248px;  // ~
+$type-size-3 : 25.008px;  // ~
+$type-size-4 : 20px;   // ~
+$type-size-5 : 16px;      // ~
+$type-size-6 : 12px;   // ~
+$type-size-7 : 11px; // ~
+$type-size-8 : 10px;  // ~
+
 @import "minimal-mistakes";
 
-html {
-    font-size: 10px; // change to whatever
-  
-    @include breakpoint($medium) {
-      font-size: 12px; // change to whatever
-    }
-  
-    @include breakpoint($large) {
-      font-size: 14px; // change to whatever
-    }
-  
-    @include breakpoint($x-large) {
-      font-size: 16px; // change to whatever
-    }
-  }
