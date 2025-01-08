@@ -28,17 +28,17 @@ $h-size-6: 5em !default;
 @import "minimal-mistakes";
 
 html {
-    font-size: 14px; // change to whatever
+    font-size: 1px; // change to whatever
   
     @include breakpoint($medium) {
-      font-size: 16px; // change to whatever
+      font-size: 1px; // change to whatever
     }
   
     @include breakpoint($large) {
-      font-size: 18px; // change to whatever
+      font-size: 1px; // change to whatever
     }
   
     @include breakpoint($x-large) {
-      font-size: 20px; // change to whatever
+      font-size: 2px; // change to whatever
     }
   }
