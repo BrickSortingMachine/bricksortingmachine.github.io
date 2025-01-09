@@ -3,7 +3,7 @@ layout: home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/sorter.jpg
+  overlay_image: /assets/images/sorter1.jpg
   actions:
     - label: "Fork on Github"
       url: "https://github.com/BrickSortingMachine/BrickSortingMachine-sorter"
