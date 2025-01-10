@@ -14,8 +14,8 @@ intro:
 feature_row:
   - image_path: assets/images/collage.webp
     alt: "A collage of sorting machines"
-    title: "Exploring LEGO Sorting Machines"
-    excerpt: "A survey of LEGO sorting machine designs found on the web."
+    title: "Exploring Sorting Machines"
+    excerpt: "A survey of LEGO® sorting machine designs found on the web."
     url: "/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/"
     btn_label: "Read More"
     btn_class: "btn--primary"
