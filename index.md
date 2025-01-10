@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "BrickSortingMachine"
 layout: splash
 header:
   overlay_color: "#000"
