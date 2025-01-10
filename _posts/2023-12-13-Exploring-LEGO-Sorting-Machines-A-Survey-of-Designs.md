@@ -11,7 +11,7 @@ Bulk storage → Part separation → Classification → Sorted storage
 
 The following overview will look at a larger field of machines and show the creative variety in designing each stage.
 
-# Stage 1 — Bulk Storage
+## Stage 1 — Bulk Storage
 In bulk storage you have a large amount of unsorted, entangled bricks and the goal is to feed it to the machine progressively. There are two typical designs used for bulk brick storage. Nr. 1 is what I call the “belt slowly moving under pile of bricks” type. Two nice examples can be seen with Daniel’s and Jacques Mattheij’s machines.
 
 From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine.
@@ -28,7 +28,7 @@ From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run
 
 From Johann Rocholl’s Brick feeder prototype.
 
-# Stage 2 — Part separation
+## Stage 2 — Part separation
 The task of part separation is to take the entangled stream of bricks and separate it into individual parts which can be passed on to the scanner strictly one by one at a time. Separation is especially challenging with LEGOs, since the parts have a huge variety in size (e.g. 1x1 plates stuck inside a window) and also friction (e.g. bricks vs. rubber wheels). On the machines I saw so far, part separation is built up from one of the following tools.
 
 Chicaning Conveyors are belts with diagonal barriers which force the parts on the conveyor to align sequentially. The delicious video below shows the chicanes being used in the food industry.
@@ -63,7 +63,7 @@ Also combinations of these designs are possible. The LegoLAS system by Jörn Sch
 
 Jörn Schlingensiepen’s Lego Automatic Sorting LegoLAS 2 0.
 
-# Stage 3 — Classification
+## Stage 3 — Classification
 After part separation, the bricks are transported one by one into the classification stage. Its task is to recognize/classify parts or part categories. Most classification stages rely on visual recognition via camera images. There are different approaches in how camera based scanners are designed. Driving motivation is to capture parts from multiple perspectives because sometimes parts are hard to distinguish from certain angles. Also strong, non-flickering lighting, which is decoupled from the environment is important. It allows cameras to operate on very short exposure times to minimize motion blur.
 
 Multiple Poses — Daniel’s machine achieves capturing of multiple perspectives by letting the parts run towards the camera. The angle of observation and the scale of the part thus changes slightly while the parts are approaching. A specialty of this setup is that the classifier needs to become scale invariant. It thus can’t use absolute image dimensions as a classification cue.
@@ -87,7 +87,7 @@ Scale — Part weights are a great complementary feature to standard visual inpu
 
 From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
 
-# Stage 4 — Sorted Storage
+## Stage 4 — Sorted Storage
 After the correct part type has been identified inside the classification stage. The part can be directed to its correct storage location. This can be achieved using one of the following approaches.
 
 Horizontal Gates — Usually a conveyor belt with mechanical arms which direct the part into the intended bucket. The two examples below don’t just guide the part but even actively push the parts into the bucket while closing. This allows parts to follow each other more closely on the belt.
@@ -129,10 +129,10 @@ RBTX’s First automatic Lego™ bricks sorting system.
 
 In the time since I wrote this article new machines continue to be in the making. I’ll try to keep up with new advancements in this section.
 
-# Update 2023–12–27
+### Update 2023–12–27
 360er0/awesome-lego-machine-learning gives a great overview on LEGO machine learning projects including many sorting machines.
 
-# Update 2024–03–13
+### Update 2024–03–13
 Freakstuff published a video on his automatic sorting machine. What’s special about this project is, that it is purely mechanical. It sorts LEGO parts by size. This is both very useful for subsequent manual sorting and as a preceding step for automated shape sorting. In shape sorting, part separation is a very hard task which gets much easier if parts are pre-sorted to be similar in size.
 
 
@@ -142,7 +142,7 @@ Looking at the design in detail, the 4 typical stages are still apparent even th
 Bulk storage is organized as a wooden crate with a step feeder which ensures a constant in-flow of parts. The step is oriented parallel to a conveyor belt. With each stroke the step releases a well defined portion of bricks in longitudinal sequence onto the conveyor. This realizes the required part separation.
 
 
-# Freakstuff's step feeder
+Freakstuff's step feeder
 Part classification (in terms of part size) is implemented using a sequence of sieve tubes featuring progressively larger openings. Small parts fall through the openings in the early stages, larger parts get transported further on to fall into a later bin.
 
 The sieve openings are designed in a spiral shape. This is a very interesting choice which according to freakstuff is key for the parts to progress through the tubes in a continuous motion.
@@ -151,7 +151,7 @@ The sieve openings are designed in a spiral shape. This is a very interesting ch
 Freakstuff's spiral shaped sieve tubes.
 According to Freakstuff, his machine is already used in production in his BrickLink store, followed by manual sorting for individual parts. He is planning to extend the setup by a visual classification based auto sorting stage. Classification shall be realized via the the brickognize web service. In general it will remain interesting to follow the project on his channel.
 
-# Update 2024–05–21
+### Update 2024–05–21
 In a parallel development, Smyrnoff Specialist Lego Parts has also been working on a fully mechanical sorter since January of this year. The design is similar to Freakstuff’s approach, utilizing tube modules with progressively larger dimensions for part sorting. Each module incorporates a spiral shape for efficient part transport. This machine is constructed from a combination of LEGO elements as well as 3D printed components.
 
 Sorter for LEGO® bricks by Smyrnoff Specialist Lego Parts.
