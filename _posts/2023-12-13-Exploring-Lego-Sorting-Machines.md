@@ -5,7 +5,7 @@ date:   2024-08-08 12:00:00 +0000
 categories: own-build
 ---
 
-The final stage of every LEGO® Sorting Machine is storing the classified bricks in the corresponding bins. This article summarizes the current work-in-progress to completely rebuild the storage stage of my sorting machine. The goal of this rebuild is to maximize the machine’s operation time by allowing it to run unattended for longer periods without human support. This includes simplifying and accelerating human maintenance, such as refilling unsorted parts and emptying storage containers for sorted LEGO® bricks.
+Thee final stage of every LEGO® Sorting Machine is storing the classified bricks in the corresponding bins. This article summarizes the current work-in-progress to completely rebuild the storage stage of my sorting machine. The goal of this rebuild is to maximize the machine’s operation time by allowing it to run unattended for longer periods without human support. This includes simplifying and accelerating human maintenance, such as refilling unsorted parts and emptying storage containers for sorted LEGO® bricks.
 
 [attachment_0](attachment)
 
