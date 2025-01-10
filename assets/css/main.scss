@@ -28,7 +28,7 @@ $h-size-6: 1em !default;
 @import "minimal-mistakes";
 
 html {
-    font-size: 12px; // change to whatever
+    font-size: 13px; // change to whatever
   
     @include breakpoint($medium) {
       font-size: 14px; // change to whatever
