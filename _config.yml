@@ -1,6 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
 - jekyll-include-cache
+- jekyll-archives
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 logo: "/assets/images/mast-logo88.jpg"
 defaults:
