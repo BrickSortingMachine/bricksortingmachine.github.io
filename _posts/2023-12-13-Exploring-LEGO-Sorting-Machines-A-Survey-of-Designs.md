@@ -18,16 +18,18 @@ In bulk storage you have a large amount of unsorted, entangled bricks and the go
 
 {% include figure popup=true image_path="/assets/images/survey/02_daniel_west_bulk.png" alt="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." caption="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." %}
 
-From Jacques Mattheij’s Sorting two metric tons of lego.
+{% include figure popup=true image_path="/assets/images/survey/03_jaques_mattheij_bulk.png" alt="From Jacques Mattheij’s Sorting two metric tons of lego." caption="From Jacques Mattheij’s Sorting two metric tons of lego." %}
 
 While in Daniel’s Design, we have a narrow bulk storage where the full width of the ground is transporting bricks, Jacques’s machine features small 1x4 tiles being glued to the belt. As a result only the small middle part is feeding a small amount of bricks to the machine. If you want to learn more about these two machines, both Daniel (here and here) and Jacques published additional background information (Part 1, Part 2 and Part 3).
 
 The bulk storage design Nr. 2 is based on a “step feeder”, where a step is moving vertically through the storage pile and feeds a small portion of bricks into the machine. Akiyuki’s, Francisco Garcia’s and Johann Rocholl’s machines employ this design idea.
 
 
-From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
+{% include figure popup=true image_path="/assets/images/survey/04_akiyuki_bulk.png" alt="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." %}
 
-From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run).
+{% include figure popup=true image_path="/assets/images/survey/05_franzisco_garcia_bulk.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="<a href=\"http://google.de\">From</a> Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." %}
+
+
 
 From Johann Rocholl’s Brick feeder prototype.
 
