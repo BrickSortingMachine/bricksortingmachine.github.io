@@ -5,7 +5,7 @@ date:   2023-12-13 12:00:00 +0000
 categories: survey
 ---
 
-Probably the best-known LEGO sorter is Daniel West’s “WORLD’S FIRST Universal LEGO Sorting Machine” (Dec, 2019). According to Daniel, his work is inspired by Akiyuki’s “LEGO Mindstorms NXT Vision Guided Brick Sorter” (March, 2011) and Jacques Mattheij’s Sorting two metric tons of lego (April, 2017). Focusing on hardware, all three machines show a similar four stage design:
+Probably the best-known LEGO sorter is Daniel West’s “[WORLD’S FIRST Universal LEGO Sorting Machine](https://www.youtube.com/watch?v=04JkdHEX3Yk)”. According to Daniel, his work is inspired by Akiyuki’s “[LEGO Mindstorms NXT Vision Guided Brick Sorter](https://www.youtube.com/watch?v=6lZ9rSZwDzE)” and Jacques Mattheij’s [Sorting two metric tons of lego](https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/). Focusing on hardware, all three machines show a similar four stage design:
 
 Bulk storage → Part separation → Classification → Sorted storage
 
@@ -16,7 +16,7 @@ The following overview will look at a larger field of machines and show the crea
 ## Stage 1 — Bulk Storage
 In bulk storage you have a large amount of unsorted, entangled bricks and the goal is to feed it to the machine progressively. There are two typical designs used for bulk brick storage. Nr. 1 is what I call the “belt slowly moving under pile of bricks” type. Two nice examples can be seen with Daniel’s and Jacques Mattheij’s machines.
 
-{% include figure popup=true image_path="/assets/images/survey/02_daniel_west_bulk.png" alt="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." caption="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." %}
+{% include figure popup=true image_path="/assets/images/survey/02_daniel_west_bulk.png" alt="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." caption="From Daniel West’s <a href=\"https://www.youtube.com/watch?v=04JkdHEX3Yk\" target=\"_blank\">The WORLD’S FIRST Universal LEGO Sorting Machine</a>." %}
 
 {% include figure popup=true image_path="/assets/images/survey/03_jaques_mattheij_bulk.png" alt="From Jacques Mattheij’s Sorting two metric tons of lego." caption="From Jacques Mattheij’s Sorting two metric tons of lego." %}
 
