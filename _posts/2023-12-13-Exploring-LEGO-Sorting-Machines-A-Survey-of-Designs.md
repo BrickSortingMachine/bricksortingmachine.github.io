@@ -11,12 +11,15 @@ Bulk storage → Part separation → Classification → Sorted storage
 
 The following overview will look at a larger field of machines and show the creative variety in designing each stage.
 
+{% include figure popup=true image_path="/assets/images/survey/01_collage.png" alt="Collage of sorting machines" %}
+
 ## Stage 1 — Bulk Storage
 In bulk storage you have a large amount of unsorted, entangled bricks and the goal is to feed it to the machine progressively. There are two typical designs used for bulk brick storage. Nr. 1 is what I call the “belt slowly moving under pile of bricks” type. Two nice examples can be seen with Daniel’s and Jacques Mattheij’s machines.
 
-From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine.
+{% include figure popup=true image_path="/assets/images/survey/02_daniel_west_bulk.png" alt="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." caption="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." %}
 
 From Jacques Mattheij’s Sorting two metric tons of lego.
+
 While in Daniel’s Design, we have a narrow bulk storage where the full width of the ground is transporting bricks, Jacques’s machine features small 1x4 tiles being glued to the belt. As a result only the small middle part is feeding a small amount of bricks to the machine. If you want to learn more about these two machines, both Daniel (here and here) and Jacques published additional background information (Part 1, Part 2 and Part 3).
 
 The bulk storage design Nr. 2 is based on a “step feeder”, where a step is moving vertically through the storage pile and feeds a small portion of bricks into the machine. Akiyuki’s, Francisco Garcia’s and Johann Rocholl’s machines employ this design idea.
