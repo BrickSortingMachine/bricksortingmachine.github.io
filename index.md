@@ -15,7 +15,7 @@ feature_row:
   - image_path: assets/images/survey/01_collage.png
     alt: "A collage of sorting machines"
     title: "Exploring Sorting Machines"
-    excerpt: "A survey of LEGO® sorting machine designs found on the web."
+    excerpt: "An overview of LEGO® sorting machine designs on the web"
     url: "/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/"
     btn_label: "Read More"
     btn_class: "btn--primary"
