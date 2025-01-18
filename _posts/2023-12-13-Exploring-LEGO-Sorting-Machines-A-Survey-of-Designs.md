@@ -45,7 +45,7 @@ Here are nice examples of chicaning conveyors in Lego sorting machines.
 
 {% include figure popup=true image_path="/assets/images/survey/07_francisco_garcia_cc.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s  <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>." %}
 
-{% include figure popup=true image_path="/assets/images/survey/07_francisco_garcia_cc.png" alt="From Peter Backx’s Deep Learning Lego Sorter." caption="From Peter Backx’s <a href=\"https://www.streamhead.com/3d%20printing/ai/2021/11/01/deep-learning-lego-sorting.html\" target=\"_blank\">Deep Learning Lego Sorter</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/08_peter_back_cc.png" alt="From Peter Backx’s Deep Learning Lego Sorter." caption="From Peter Backx’s <a href=\"https://www.streamhead.com/3d%20printing/ai/2021/11/01/deep-learning-lego-sorting.html\" target=\"_blank\">Deep Learning Lego Sorter</a>." %}
 
 **Two-speed belt steps** are another possible component to achieve part separation. They consist of a slow moving conveyor belt, which drops parts onto a second, much faster moving belt. This feature takes parts which are already sequentially aligned and spreads them out longitudinally.
 
