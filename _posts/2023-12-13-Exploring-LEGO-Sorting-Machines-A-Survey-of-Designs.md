@@ -5,6 +5,7 @@ date:   2023-12-13 12:00:00 +0000
 categories: survey
 toc: true
 toc_sticky: true   # enables sticky toc
+toc_label: "Content"
 ---
 
 Probably the best-known LEGO sorter is Daniel West’s “[Universal LEGO Sorting Machine](https://www.youtube.com/watch?v=04JkdHEX3Yk)”. According to Daniel, his work is inspired by Akiyuki’s “[NXT Vision Guided Brick Sorter](https://www.youtube.com/watch?v=6lZ9rSZwDzE)” and Jacques Mattheij’s [Sorting two metric tons of lego](https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/). Focusing on hardware, all three machines show a similar four stage design:
@@ -137,10 +138,14 @@ RBTX’s First automatic Lego™ bricks sorting system.
 
 In the time since I wrote this article new machines continue to be in the making. I’ll try to keep up with new advancements in this section.
 
-### Update 2023–12–27
+## Recent Updates
+
+In this section I am trying to keep up with recently published new machines.
+
+### 2023–12–27
 360er0/awesome-lego-machine-learning gives a great overview on LEGO machine learning projects including many sorting machines.
 
-### Update 2024–03–13
+### 2024–03–13
 Freakstuff published a video on his automatic sorting machine. What’s special about this project is, that it is purely mechanical. It sorts LEGO parts by size. This is both very useful for subsequent manual sorting and as a preceding step for automated shape sorting. In shape sorting, part separation is a very hard task which gets much easier if parts are pre-sorted to be similar in size.
 
 
@@ -159,7 +164,7 @@ The sieve openings are designed in a spiral shape. This is a very interesting ch
 Freakstuff's spiral shaped sieve tubes.
 According to Freakstuff, his machine is already used in production in his BrickLink store, followed by manual sorting for individual parts. He is planning to extend the setup by a visual classification based auto sorting stage. Classification shall be realized via the the brickognize web service. In general it will remain interesting to follow the project on his channel.
 
-### Update 2024–05–21
+### 2024–05–21
 In a parallel development, Smyrnoff Specialist Lego Parts has also been working on a fully mechanical sorter since January of this year. The design is similar to Freakstuff’s approach, utilizing tube modules with progressively larger dimensions for part sorting. Each module incorporates a spiral shape for efficient part transport. This machine is constructed from a combination of LEGO elements as well as 3D printed components.
 
 Sorter for LEGO® bricks by Smyrnoff Specialist Lego Parts.
