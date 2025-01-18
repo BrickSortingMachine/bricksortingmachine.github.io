@@ -49,8 +49,7 @@ Here are nice examples of chicaning conveyors in Lego sorting machines.
 
 **Two-speed belt steps** are another possible component to achieve part separation. They consist of a slow moving conveyor belt, which drops parts onto a second, much faster moving belt. This feature takes parts which are already sequentially aligned and spreads them out longitudinally.
 
-
-From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
+{% include figure popup=true image_path="/assets/images/survey/08_akiyuk_step.png" alt="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki’s <a href=\"https://www.youtube.com/watch?v=6lZ9rSZwDzE\" target=\"_blank\">LEGO Mindstorms NXT Vision Guided Brick Sorter</a>." %}
 
 From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run).
 
