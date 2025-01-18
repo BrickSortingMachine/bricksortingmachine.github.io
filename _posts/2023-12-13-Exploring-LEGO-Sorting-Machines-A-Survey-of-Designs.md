@@ -3,7 +3,7 @@ layout: single
 title:  "Exploring LEGO Sorting Machines: A Survey of Designs"
 date:   2023-12-13 12:00:00 +0000
 categories: survey
-toc: true
+toc: false
 toc_sticky: true   # enables sticky toc
 toc_label: "Content"
 ---
