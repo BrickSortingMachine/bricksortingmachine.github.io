@@ -14,3 +14,5 @@ Sorting machines are a passion of mine, and I’m always keen to exchange ideas 
 Former Blogs:
 * <i class="fa-brands fa-medium"></i> <a href="https://medium.com/@bricksortingmachine" target="_blank">Medium</a>
 * <i class="fa-brands fa-blogger"></i> <a href="https://bricksortingmachine.blogspot.com/" target="_blank">Blogger</a>
+
+If you are interested in exchanging with a community of sorting machine builders I can strongly suggest to join the *Great Brick Lab* server on Discord.
