@@ -43,8 +43,8 @@ The task of part separation is to take the entangled stream of bricks and separa
 
 Here are nice examples of chicaning conveyors in Lego sorting machines.
 
+{% include figure popup=true image_path="/assets/images/survey/07_francisco_garcia_cc.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s  <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi</a>." %}
 
-From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run).
 
 From Peter Backx’s Deep Learning Lego Sorter.
 
