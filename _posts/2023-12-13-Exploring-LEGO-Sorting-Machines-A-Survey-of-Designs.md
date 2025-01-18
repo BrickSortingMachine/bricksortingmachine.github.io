@@ -59,7 +59,8 @@ The **vibration feeder** is the most frequently used part separator. It strongly
 
 {% include figure popup=true image_path="/assets/images/survey/11_jacques_matteij_vchannel.png" alt="From Jacques Mattheij’s Sorting two metric tons of lego." caption="From Jacques Mattheij’s <a href=\"https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/\" target=\"_blank\">Sorting two metric tons of lego</a>." %}
 
-From Chris James’s Big Robot LEGO Sorting Machine.
+{% include figure popup=true image_path="/assets/images/survey/12_chris_james_vchannel.png" alt="From Chris James’s Big Robot LEGO Sorting Machine." caption="From Chris James’s <a href=\"https://www.youtube.com/shorts/7FFnoSeIwnU\" target=\"_blank\">Big Robot LEGO Sorting Machine</a>." %}
+
 
 From Johann Rocholl’s Brick feeder prototype.
 
