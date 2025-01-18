@@ -51,7 +51,7 @@ Here are nice examples of chicaning conveyors in Lego sorting machines.
 
 {% include figure popup=true image_path="/assets/images/survey/08_akiyuk_step.png" alt="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki’s <a href=\"https://www.youtube.com/watch?v=6lZ9rSZwDzE\" target=\"_blank\">LEGO Mindstorms NXT Vision Guided Brick Sorter</a>." %}
 
-{% include figure popup=true image_path="/assets/images/survey/08_akiyuk_step.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/09_francisco_garcia_step.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>." %}
 
 
 
