@@ -8,7 +8,7 @@ toc_sticky: true   # enables sticky toc
 toc_label: "Content"
 ---
 
-Probably the best-known LEGO sorter is Daniel West’s “<a href="https://www.youtube.com/watch?v=04JkdHEX3Yk" target="_blank">Universal LEGO Sorting Machine</a>”. According to Daniel, his work is inspired by Akiyuki’s “[NXT Vision Guided Brick Sorter](https://www.youtube.com/watch?v=6lZ9rSZwDzE)” and Jacques Mattheij’s [Sorting two metric tons of lego](https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/). Focusing on hardware, all three machines show a similar four stage design:
+Probably the best-known LEGO sorter is Daniel West’s “<a href="https://www.youtube.com/watch?v=04JkdHEX3Yk" target="_blank">Universal LEGO Sorting Machine</a>”. According to Daniel, his work is inspired by Akiyuki’s “<a href="https://www.youtube.com/watch?v=6lZ9rSZwDzE" target="_blank">NXT Vision Guided Brick Sorter</a>” and Jacques Mattheij’s <a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Sorting two metric tons of lego</a>. Focusing on hardware, all three machines show a similar four stage design:
 
 **Bulk storage → Part separation → Classification → Sorted storage**
 {: .notice--info}
@@ -24,7 +24,7 @@ In bulk storage you have a large amount of unsorted, entangled bricks and the go
 
 {% include figure popup=true image_path="/assets/images/survey/03_jaques_mattheij_bulk.png" alt="From Jacques Mattheij’s Sorting two metric tons of lego." caption="From Jacques Mattheij’s Sorting two metric tons of lego." %}
 
-While in Daniel’s Design, we have a narrow bulk storage where the full width of the ground is transporting bricks, Jacques’s machine features small 1x4 tiles being glued to the belt. As a result only the small middle part is feeding a small amount of bricks to the machine. If you want to learn more about these two machines, both Daniel (here and here) and Jacques published additional background information (Part 1, Part 2 and Part 3).
+While in Daniel’s Design, we have a narrow bulk storage where the full width of the ground is transporting bricks, Jacques’s machine features small 1x4 tiles being glued to the belt. As a result only the small middle part is feeding a small amount of bricks to the machine. If you want to learn more about these two machines, both Daniel (<a href="https://towardsdatascience.com/a-high-speed-computer-vision-pipeline-for-the-universal-lego-sorting-machine-253f5a690ef4" target="_blank">here</a> and <a href="https://towardsdatascience.com/how-i-created-over-100-000-labeled-lego-training-images-ec74191bb4ef" target="_blank">here</a>) and Jacques published additional background information (<a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Part 1</a>, <a href="https://jacquesmattheij.com/sorting-lego-the-software-side/" target="_blank">Part 2</a> and <a href="https://jacquesmattheij.com/sorting-lego-many-questions-and-this-is-what-the-result-looks-like/" target="_blank">Part 3</a>).
 
 The bulk storage design Nr. 2 is based on a “step feeder”, where a step is moving vertically through the storage pile and feeds a small portion of bricks into the machine. Akiyuki’s, Francisco Garcia’s and Johann Rocholl’s machines employ this design idea.
 
