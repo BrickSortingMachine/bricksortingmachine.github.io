@@ -82,8 +82,7 @@ After part separation, the bricks are transported one by one into the classifica
 
 **Mirror** — Johann Rocholl’s sorter features a single camera and a mirror to capture two perspectives at once. This design reduces complexity, ensures synchronization between the captured images and greatly reduces bus/CPU load compared to grabbing multiple cameras.
 
-
-From Johann Rocholl’s Conveyor belt for LEGO sorting.
+{% include figure popup=true image_path="/assets/images/survey/13_johann_rocholl_vchannel.png" alt="From Johann Rocholl’s Conveyor belt for LEGO sorting." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=o-FL02ePFEU\" target=\"_blank\">Conveyor belt for LEGO sorting</a>." %}
 
 **Smartphone** — Spencer Hunber’s Nexus sorting machine is using a smartphone for high quality camera and potential CNN accelerator hardware.
 
