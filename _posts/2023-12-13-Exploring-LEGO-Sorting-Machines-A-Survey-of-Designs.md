@@ -78,8 +78,7 @@ After part separation, the bricks are transported one by one into the classifica
 
 **Multiple Cameras** — Gijs van Haeff’s sorting machine instead uses multiple cameras to capture multiple perspectives simultaneously.
 
-
-From Gijs van Haeff’s Universal LEGO Sorting Machine.
+{% include figure popup=true image_path="/assets/images/survey/16_daniel_west_visualization.png" alt="From Gijs van Haeff’s Universal LEGO Sorting Machine." caption="From Gijs van Haeff’s <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
 
 **Mirror** — Johann Rocholl’s sorter features a single camera and a mirror to capture two perspectives at once. This design reduces complexity, ensures synchronization between the captured images and greatly reduces bus/CPU load compared to grabbing multiple cameras.
 
