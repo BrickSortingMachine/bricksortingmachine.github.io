@@ -78,11 +78,11 @@ After part separation, the bricks are transported one by one into the classifica
 
 **Multiple Cameras** — Gijs van Haeff’s sorting machine instead uses multiple cameras to capture multiple perspectives simultaneously.
 
-{% include figure popup=true image_path="/assets/images/survey/16_daniel_west_visualization.png" alt="From Gijs van Haeff’s Universal LEGO Sorting Machine." caption="From Gijs van Haeff’s <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/17_gijs_van_haeff_vision.png" alt="From Gijs van Haeff’s Universal LEGO Sorting Machine." caption="From Gijs van Haeff’s <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
 
 **Mirror** — Johann Rocholl’s sorter features a single camera and a mirror to capture two perspectives at once. This design reduces complexity, ensures synchronization between the captured images and greatly reduces bus/CPU load compared to grabbing multiple cameras.
 
-{% include figure popup=true image_path="/assets/images/survey/13_johann_rocholl_vchannel.png" alt="From Johann Rocholl’s Conveyor belt for LEGO sorting." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=o-FL02ePFEU\" target=\"_blank\">Conveyor belt for LEGO sorting</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/18_johann_rocholl_mirror.png" alt="From Johann Rocholl’s Conveyor belt for LEGO sorting." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=o-FL02ePFEU\" target=\"_blank\">Conveyor belt for LEGO sorting</a>." %}
 
 **Smartphone** — Spencer Hunber’s Nexus sorting machine is using a smartphone for high quality camera and potential CNN accelerator hardware.
 
