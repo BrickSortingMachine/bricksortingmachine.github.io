@@ -69,8 +69,7 @@ The **vibration feeder** is the most frequently used part separator. It strongly
 
 Also combinations of these designs are possible. The LegoLAS system by Jörn Schlingensiepen runs two vibration feeders at different slopes and thus effectively different transport speeds. This combines the sequential alignment of the vibration feeder with the longitudinal spreading of the belt step.
 
-
-Jörn Schlingensiepen’s Lego Automatic Sorting LegoLAS 2 0.
+{% include figure popup=true image_path="/assets/images/survey/15_joern_schlingensiepen_vchannel.png" alt="From Jörn Schlingensiepen’s Lego Automatic Sorting LegoLAS2.0." caption="From Jörn Schlingensiepen’s <a href=\"https://www.youtube.com/watch?v=sCfN5LrUlKc\" target=\"_blank\">Lego Automatic Sorting LegoLAS2.0</a>." %}
 
 ## Stage 3 — Classification
 After part separation, the bricks are transported one by one into the classification stage. Its task is to recognize/classify parts or part categories. Most classification stages rely on visual recognition via camera images. There are different approaches in how camera based scanners are designed. Driving motivation is to capture parts from multiple perspectives because sometimes parts are hard to distinguish from certain angles. Also strong, non-flickering lighting, which is decoupled from the environment is important. It allows cameras to operate on very short exposure times to minimize motion blur.
