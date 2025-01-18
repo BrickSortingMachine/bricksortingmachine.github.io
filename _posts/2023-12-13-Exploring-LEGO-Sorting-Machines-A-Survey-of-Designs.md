@@ -9,7 +9,7 @@ toc_sticky: true   # enables sticky toc
 
 Probably the best-known LEGO sorter is Daniel West’s “[Universal LEGO Sorting Machine](https://www.youtube.com/watch?v=04JkdHEX3Yk)”. According to Daniel, his work is inspired by Akiyuki’s “[NXT Vision Guided Brick Sorter](https://www.youtube.com/watch?v=6lZ9rSZwDzE)” and Jacques Mattheij’s [Sorting two metric tons of lego](https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/). Focusing on hardware, all three machines show a similar four stage design:
 
-Bulk storage → Part separation → Classification → Sorted storage
+**Bulk storage → Part separation → Classification → Sorted storage**
 {: .notice--info}
 
 The following overview will look at a larger field of machines and show the creative variety in designing each stage.
