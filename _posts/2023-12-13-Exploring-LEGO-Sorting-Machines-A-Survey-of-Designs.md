@@ -63,9 +63,9 @@ The **vibration feeder** is the most frequently used part separator. It strongly
 
 {% include figure popup=true image_path="/assets/images/survey/13_johann_rocholl_vchannel.png" alt="From Johann Rocholl’s Brick feeder prototype." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=TYAh1lxqg8o\" target=\"_blank\">Brick feeder prototype</a>." %}
 
+{% include figure popup=true image_path="/assets/images/survey/14_peter_v_vchannel.png" alt="From Peter V’s Lego Sorting machine close-up." caption="From Peter V’s <a href=\"https://www.youtube.com/watch?v=ZOox_HX_6eo\" target=\"_blank\">Lego Sorting machine close-up</a>." %}
 
 
-From Peter V’s Lego Sorting machine close-up.
 
 Also combinations of these designs are possible. The LegoLAS system by Jörn Schlingensiepen runs two vibration feeders at different slopes and thus effectively different transport speeds. This combines the sequential alignment of the vibration feeder with the longitudinal spreading of the belt step.
 
