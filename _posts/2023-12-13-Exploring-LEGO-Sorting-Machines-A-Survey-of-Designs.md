@@ -65,8 +65,6 @@ The **vibration feeder** is the most frequently used part separator. It strongly
 
 {% include figure popup=true image_path="/assets/images/survey/14_peter_v_vchannel.png" alt="From Peter V’s Lego Sorting machine close-up." caption="From Peter V’s <a href=\"https://www.youtube.com/watch?v=ZOox_HX_6eo\" target=\"_blank\">Lego Sorting machine close-up</a>." %}
 
-
-
 Also combinations of these designs are possible. The LegoLAS system by Jörn Schlingensiepen runs two vibration feeders at different slopes and thus effectively different transport speeds. This combines the sequential alignment of the vibration feeder with the longitudinal spreading of the belt step.
 
 {% include figure popup=true image_path="/assets/images/survey/15_joern_schlingensiepen_vchannel.png" alt="From Jörn Schlingensiepen’s Lego Automatic Sorting LegoLAS2.0." caption="From Jörn Schlingensiepen’s <a href=\"https://www.youtube.com/watch?v=sCfN5LrUlKc\" target=\"_blank\">Lego Automatic Sorting LegoLAS2.0</a>." %}
@@ -74,23 +72,26 @@ Also combinations of these designs are possible. The LegoLAS system by Jörn Sch
 ## Stage 3 — Classification
 After part separation, the bricks are transported one by one into the classification stage. Its task is to recognize/classify parts or part categories. Most classification stages rely on visual recognition via camera images. There are different approaches in how camera based scanners are designed. Driving motivation is to capture parts from multiple perspectives because sometimes parts are hard to distinguish from certain angles. Also strong, non-flickering lighting, which is decoupled from the environment is important. It allows cameras to operate on very short exposure times to minimize motion blur.
 
-Multiple Poses — Daniel’s machine achieves capturing of multiple perspectives by letting the parts run towards the camera. The angle of observation and the scale of the part thus changes slightly while the parts are approaching. A specialty of this setup is that the classifier needs to become scale invariant. It thus can’t use absolute image dimensions as a classification cue.
+**Multiple Poses** — Daniel’s machine achieves capturing of multiple perspectives by letting the parts run towards the camera. The angle of observation and the scale of the part thus changes slightly while the parts are approaching. A specialty of this setup is that the classifier needs to become scale invariant. It thus can’t use absolute image dimensions as a classification cue.
 
+{% include figure popup=true image_path="/assets/images/survey/16_daniel_west_visualization.png" alt="From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine." caption="From Daniel West’s <a href=\"https://www.youtube.com/watch?v=04JkdHEX3Yk\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
 
-From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine.
-Multiple Cameras — Gijs van Haeff’s sorting machine instead uses multiple cameras to capture multiple perspectives simultaneously.
+**Multiple Cameras** — Gijs van Haeff’s sorting machine instead uses multiple cameras to capture multiple perspectives simultaneously.
 
 
 From Gijs van Haeff’s Universal LEGO Sorting Machine.
-Mirror — Johann Rocholl’s sorter features a single camera and a mirror to capture two perspectives at once. This design reduces complexity, ensures synchronization between the captured images and greatly reduces bus/CPU load compared to grabbing multiple cameras.
+
+**Mirror** — Johann Rocholl’s sorter features a single camera and a mirror to capture two perspectives at once. This design reduces complexity, ensures synchronization between the captured images and greatly reduces bus/CPU load compared to grabbing multiple cameras.
 
 
 From Johann Rocholl’s Conveyor belt for LEGO sorting.
-Smartphone — Spencer Hunber’s Nexus sorting machine is using a smartphone for high quality camera and potential CNN accelerator hardware.
+
+**Smartphone** — Spencer Hunber’s Nexus sorting machine is using a smartphone for high quality camera and potential CNN accelerator hardware.
 
 
 From Spencer Hubert’s Nexus.
-Scale — Part weights are a great complementary feature to standard visual input for classification. Akiyuki fitted a digital scale to his Lego sorting machine. This can be achieved using either a USB scale or via a camera looking at the display of the scale and doing basic character recognition. However, the classifier needs to be adapted to accept multimodal input. A mechanism is also needed for pushing parts onto and off the scale. The weight feature could also be useful for detecting multiple parts erroneously presented to the camera at the same time. By combining visual input with part weights, sorting machines potentially can achieve higher classification accuracy.
+
+**Scale** — Part weights are a great complementary feature to standard visual input for classification. Akiyuki fitted a digital scale to his Lego sorting machine. This can be achieved using either a USB scale or via a camera looking at the display of the scale and doing basic character recognition. However, the classifier needs to be adapted to accept multimodal input. A mechanism is also needed for pushing parts onto and off the scale. The weight feature could also be useful for detecting multiple parts erroneously presented to the camera at the same time. By combining visual input with part weights, sorting machines potentially can achieve higher classification accuracy.
 
 
 From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
