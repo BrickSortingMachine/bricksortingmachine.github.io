@@ -41,8 +41,9 @@ The bulk storage design Nr. 2 is based on a “step feeder”, where a step is m
 ## Stage 2 — Part separation
 The task of part separation is to take the entangled stream of bricks and separate it into individual parts which can be passed on to the scanner strictly one by one at a time. Separation is especially challenging with LEGOs, since the parts have a huge variety in size (e.g. 1x1 plates stuck inside a window) and also friction (e.g. bricks vs. rubber wheels). On the machines I saw so far, part separation is built up from one of the following tools.
 
-Chicaning Conveyors are belts with diagonal barriers which force the parts on the conveyor to align sequentially. The delicious video below shows the chicanes being used in the food industry.
+**Chicaning Conveyors** are belts with diagonal barriers which force the parts on the conveyor to align sequentially. The delicious video below shows the chicanes being used in the food industry.
 
+{% include video id="CrGrcaJoyws" provider="youtube" %}
 
 Here are nice examples of chicaning conveyors in Lego sorting machines.
 
