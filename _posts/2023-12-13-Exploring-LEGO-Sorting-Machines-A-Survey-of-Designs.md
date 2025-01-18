@@ -32,11 +32,7 @@ The bulk storage design Nr. 2 is based on a “step feeder”, where a step is m
 
 {% include figure popup=true image_path="/assets/images/survey/05_franzisco_garcia_bulk.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>" %}
 
-{% include figure popup=true image_path="/assets/images/survey/06_johann_rocholl_bulk.pngg" alt="From Johann Rocholl’s Brick feeder prototype." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=TYAh1lxqg8o\" target=\"_blank\">Brick feeder prototype</a>." %}
-
-
-
-
+{% include figure popup=true image_path="/assets/images/survey/06_johann_rocholl_bulk.png" alt="From Johann Rocholl’s Brick feeder prototype." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=TYAh1lxqg8o\" target=\"_blank\">Brick feeder prototype</a>." %}
 
 ## Stage 2 — Part separation
 The task of part separation is to take the entangled stream of bricks and separate it into individual parts which can be passed on to the scanner strictly one by one at a time. Separation is especially challenging with LEGOs, since the parts have a huge variety in size (e.g. 1x1 plates stuck inside a window) and also friction (e.g. bricks vs. rubber wheels). On the machines I saw so far, part separation is built up from one of the following tools.
@@ -51,13 +47,15 @@ Here are nice examples of chicaning conveyors in Lego sorting machines.
 From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run).
 
 From Peter Backx’s Deep Learning Lego Sorter.
-Two-speed belt steps are another possible component to achieve part separation. They consist of a slow moving conveyor belt, which drops parts onto a second, much faster moving belt. This feature takes parts which are already sequentially aligned and spreads them out longitudinally.
+
+**Two-speed belt steps** are another possible component to achieve part separation. They consist of a slow moving conveyor belt, which drops parts onto a second, much faster moving belt. This feature takes parts which are already sequentially aligned and spreads them out longitudinally.
 
 
 From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
 
 From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run).
-The vibration feeder is the most frequently used part separator. It strongly shakes parts inside a v-shaped channel. As a result it forces the parts to align sequentially. Vibration feeders have the advantage of being able to separate even entangled parts. The amplitude and frequency of the vibrations as well as the slope of the feeder needs to be tuned well to achieve good separation performance.
+
+The **vibration feeder** is the most frequently used part separator. It strongly shakes parts inside a v-shaped channel. As a result it forces the parts to align sequentially. Vibration feeders have the advantage of being able to separate even entangled parts. The amplitude and frequency of the vibrations as well as the slope of the feeder needs to be tuned well to achieve good separation performance.
 
 
 From Daniel West’s The WORLD’S FIRST Universal LEGO Sorting Machine.
@@ -69,6 +67,7 @@ From Chris James’s Big Robot LEGO Sorting Machine.
 From Johann Rocholl’s Brick feeder prototype.
 
 From Peter V’s Lego Sorting machine close-up.
+
 Also combinations of these designs are possible. The LegoLAS system by Jörn Schlingensiepen runs two vibration feeders at different slopes and thus effectively different transport speeds. This combines the sequential alignment of the vibration feeder with the longitudinal spreading of the belt step.
 
 
