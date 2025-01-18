@@ -28,11 +28,11 @@ While in Daniel’s Design, we have a narrow bulk storage where the full width o
 
 The bulk storage design Nr. 2 is based on a “step feeder”, where a step is moving vertically through the storage pile and feeds a small portion of bricks into the machine. Akiyuki’s, Francisco Garcia’s and Johann Rocholl’s machines employ this design idea.
 
-{% include figure popup=true image_path="/assets/images/survey/04_akiyuki_bulk.png" alt="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki’s <a href="https://www.youtube.com/watch?v=6lZ9rSZwDzE" target="_blank">LEGO Mindstorms NXT Vision Guided Brick Sorter ver1</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/04_akiyuki_bulk.png" alt="From Akiyuki’s LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki’s <a href=\"https://www.youtube.com/watch?v=6lZ9rSZwDzE\" target=\"_blank\>LEGO Mindstorms NXT Vision Guided Brick Sorter ver1</a>." %}
 
-{% include figure popup=true image_path="/assets/images/survey/05_franzisco_garcia_bulk.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s <a href="https://www.youtube.com/watch?v=uCuQsNwX1QY" target="_blank">Lego Sorter with TensorFlow on Raspberry Pi</a>" %}
+{% include figure popup=true image_path="/assets/images/survey/05_franzisco_garcia_bulk.png" alt="From Francisco Garcia’s Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia’s <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>" %}
 
-{% include figure popup=true image_path="/assets/images/survey/06_johann_rocholl_bulk.pngg" alt="From Johann Rocholl’s Brick feeder prototype." caption="From Johann Rocholl’s <a href="https://www.youtube.com/watch?v=TYAh1lxqg8o" target="_blank">Brick feeder prototype</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/06_johann_rocholl_bulk.pngg" alt="From Johann Rocholl’s Brick feeder prototype." caption="From Johann Rocholl’s <a href=\"https://www.youtube.com/watch?v=TYAh1lxqg8o\" target=\"_blank\">Brick feeder prototype</a>." %}
 
 
 
