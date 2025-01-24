@@ -99,11 +99,13 @@ Horizontal Gates — Usually a conveyor belt with mechanical arms which direct t
 
 {% include figure popup=true image_path="/assets/images/survey/20_akiyuki_scale.png" alt="From NealAnthoons's Lego Sorting Machine." caption="From NealAnthoons's <a href=\"https://www.youtube.com/watch?v=6IAMW4N4ohY\" target=\"_blank\">Lego Sorting Machine</a>." %}
 
-From Gijs van Haeff's Universal LEGO Sorting Machine.
+{% include figure popup=true image_path="/assets/images/survey/22_gijs_van_haeff_gates.png" alt="From Gijs van Haeff's Universal LEGO Sorting Machine." caption="From Gijs van Haeff's <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
+
 Vertical Gates turn the principle around and replace the conveyor with a vertical channel through which the parts are falling. A gate directly above the target bin then directs them to the right place. The speed of the falling part is high thus allowing parts to be sorted quickly.
 
+{% include figure popup=true image_path="/assets/images/survey/23_johann_rocholl_vertical_gates.png" alt="From Johann Rocholl's Sorting Machine Flap Design." caption="From Johann Rocholl's <a href=\"https://www.youtube.com/watch?v=ZGXZsMSBHzg\" target=\"_blank\">Sorting Machine Flap Design</a>." %}
 
-From Johann Rocholl's Sorting Machine Flap Design.
+
 
 From Spencer Hubert's Nexus.
 Pneumatic Sorters use a short, directed blast of air to push the parts off the belt and into the storage bin. They feature very little moving parts and typically use a solenoid valve which can be triggered from GPIO ports. Timing is crucial in order for the parts not to fly sideways into the wrong bin. A belt position encoder (e.g. optically via the wiggly line in Jacques's design) helps measuring the exact belt and thus part position. A belt with lateral cleats (see Eppos Vision System below) helps to keep the parts on course when they fly with the air stream. Jacques Mattheij's machine apparently even adjusts the dose of air based on the respective part size. Finally it is very helpful to use a silent air compressor, since normal ones are quite loud for long term usage. Apart from the compressor noise, personally I think pneumatic sorters at work are super relaxing to watch 😉
