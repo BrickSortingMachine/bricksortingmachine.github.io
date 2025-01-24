@@ -86,8 +86,7 @@ After part separation, the bricks are transported one by one into the classifica
 
 **Smartphone** — Spencer Hunber's Nexus sorting machine is using a smartphone for high quality camera and potential CNN accelerator hardware.
 
-
-From Spencer Hubert's Nexus.
+{% include figure popup=true image_path="/assets/images/survey/19_spencer_huber_mobile.png" alt="From Spencer Hubert's Nexus." caption="From Spencer Hubert's <a href=\"https://github.com/spencerhhubert/nexus\" target=\"_blank\">Nexus</a>." %}
 
 **Scale** — Part weights are a great complementary feature to standard visual input for classification. Akiyuki fitted a digital scale to his Lego sorting machine. This can be achieved using either a USB scale or via a camera looking at the display of the scale and doing basic character recognition. However, the classifier needs to be adapted to accept multimodal input. A mechanism is also needed for pushing parts onto and off the scale. The weight feature could also be useful for detecting multiple parts erroneously presented to the camera at the same time. By combining visual input with part weights, sorting machines potentially can achieve higher classification accuracy.
 
