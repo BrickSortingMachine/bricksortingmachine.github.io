@@ -90,8 +90,7 @@ After part separation, the bricks are transported one by one into the classifica
 
 **Scale** — Part weights are a great complementary feature to standard visual input for classification. Akiyuki fitted a digital scale to his Lego sorting machine. This can be achieved using either a USB scale or via a camera looking at the display of the scale and doing basic character recognition. However, the classifier needs to be adapted to accept multimodal input. A mechanism is also needed for pushing parts onto and off the scale. The weight feature could also be useful for detecting multiple parts erroneously presented to the camera at the same time. By combining visual input with part weights, sorting machines potentially can achieve higher classification accuracy.
 
-
-From Akiyuki's LEGO Mindstorms NXT Vision Guided Brick Sorter ver1.
+{% include figure popup=true image_path="/assets/images/survey/20_akiyuki_scale.png" alt="From Akiyuki's LEGO Mindstorms NXT Vision Guided Brick Sorter ver1." caption="From Akiyuki's <a href=\"https://www.youtube.com/watch?v=6lZ9rSZwDzE\" target=\"_blank\">LEGO Mindstorms NXT Vision Guided Brick Sorter</a>." %}
 
 ## Stage 4 — Sorted Storage
 After the correct part type has been identified inside the classification stage. The part can be directed to its correct storage location. This can be achieved using one of the following approaches.
