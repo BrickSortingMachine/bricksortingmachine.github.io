@@ -105,9 +105,8 @@ Vertical Gates turn the principle around and replace the conveyor with a vertica
 
 {% include figure popup=true image_path="/assets/images/survey/23_johann_rocholl_vertical_gates.png" alt="From Johann Rocholl's Sorting Machine Flap Design." caption="From Johann Rocholl's <a href=\"https://www.youtube.com/watch?v=ZGXZsMSBHzg\" target=\"_blank\">Sorting Machine Flap Design</a>." %}
 
+{% include figure popup=true image_path="/assets/images/survey/24_spencer_huber_vertical_gates.png" alt="From Spencer Hubert's Nexus." caption="From Spencer Hubert's <a href=\"https://github.com/spencerhhubert/nexus\" target=\"_blank\">Nexus</a>." %}
 
-
-From Spencer Hubert's Nexus.
 Pneumatic Sorters use a short, directed blast of air to push the parts off the belt and into the storage bin. They feature very little moving parts and typically use a solenoid valve which can be triggered from GPIO ports. Timing is crucial in order for the parts not to fly sideways into the wrong bin. A belt position encoder (e.g. optically via the wiggly line in Jacques's design) helps measuring the exact belt and thus part position. A belt with lateral cleats (see Eppos Vision System below) helps to keep the parts on course when they fly with the air stream. Jacques Mattheij's machine apparently even adjusts the dose of air based on the respective part size. Finally it is very helpful to use a silent air compressor, since normal ones are quite loud for long term usage. Apart from the compressor noise, personally I think pneumatic sorters at work are super relaxing to watch 😉
 
 
