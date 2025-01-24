@@ -97,7 +97,7 @@ After the correct part type has been identified inside the classification stage.
 
 Horizontal Gates — Usually a conveyor belt with mechanical arms which direct the part into the intended bucket. The two examples below don't just guide the part but even actively push the parts into the bucket while closing. This allows parts to follow each other more closely on the belt.
 
-{% include figure popup=true image_path="/assets/images/survey/20_akiyuki_scale.png" alt="From NealAnthoons's Lego Sorting Machine." caption="From NealAnthoons's <a href=\"https://www.youtube.com/watch?v=6IAMW4N4ohY\" target=\"_blank\">Lego Sorting Machine</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/21_neal_anthoons_gates.png" alt="From NealAnthoons's Lego Sorting Machine." caption="From NealAnthoons's <a href=\"https://www.youtube.com/watch?v=6IAMW4N4ohY\" target=\"_blank\">Lego Sorting Machine</a>." %}
 
 {% include figure popup=true image_path="/assets/images/survey/22_gijs_van_haeff_gates.png" alt="From Gijs van Haeff's Universal LEGO Sorting Machine." caption="From Gijs van Haeff's <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
 
