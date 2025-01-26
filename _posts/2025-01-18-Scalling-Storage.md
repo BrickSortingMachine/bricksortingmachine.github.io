@@ -1,4 +1,12 @@
-Title: Scaling Up LEGO Brick Storage for Large-Scale Sorting
+---
+layout: single
+title:  "Scaling Up LEGO Brick Storage for Large-Scale Sorting"
+date:   2025-01-18 12:00:00 +0000
+categories: design
+toc: false
+toc_sticky: true   # enables sticky toc
+toc_label: "Content"
+---
 
 The final stage of any LEGO sorting machine involves a storage system that deposits classified parts into designated bins. While typical setups utilize between 10 and 40 individual bins, depending on the machine's scale, this article explores the idea of significantly expanding this capacity—to 100, 200, or even thousands of bins.
 
