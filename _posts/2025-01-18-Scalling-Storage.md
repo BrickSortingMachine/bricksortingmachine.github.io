@@ -18,7 +18,7 @@ Storage approaches typically scale hardware needs linearly in the number of bins
 
 **A Scalable Approach: Automated Storage and Retrieval Systems (AS/RS)**
 
-To overcome theis limitation, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the bins reacting on a classified part, the machine goes and gets the matching bin for each LEGO piece.
+To overcome theis limitation, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the bins picking identified parts, the machine goes and gets the matching bin for each LEGO piece.
 
 This concept draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
 
