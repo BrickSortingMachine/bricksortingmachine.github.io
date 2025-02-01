@@ -8,17 +8,17 @@ toc_sticky: true   # enables sticky toc
 toc_label: "Content"
 ---
 
-The final stage of any LEGO sorting machine involves a storage system that deposits classified parts into designated bins. While typical setups utilize between 10 and 40 individual bins, depending on the machine's scale, this article explores the idea of significantly expanding this capacity—to 100, 200, or even thousands of bins.
+The final stage of any LEGO sorting machine involves a system that places classified parts into the designated storage bins. While typical setups contain around 10 to 40 individual bins, this article explores the idea of significantly expanding this capacity - to 100, 200, or potentially thousands of bins.
 
-The motivation is straightforward: LEGO has produced approximately 20,000 different parts (including variations such as color). To advance sorting machines beyond handling part classes and enable sorting by individual part, the number of discrete storage locations must increase dramatically.
+The motivation is straightforward: LEGO has produced approximately 20,000 different parts (including variations such as color). To advance sorting machines beyond handling part classes and enable sorting by individual part types, the number of discrete storage locations must increase dramatically.
 
 **Linear Scaling Limitations**
 
-Traditional storage approaches scale hardware needs linearly with the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
+Storage approaches typically scale hardware needs linearly in the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
 
 **A Scalable Approach: Automated Storage and Retrieval Systems (AS/RS)**
 
-To overcome these limitations, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the individual bins fetching the part, the machine fetches the correct bin.
+To overcome theis limitation, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the bins picking identified parts, the machine goes and gets the matching bin for each LEGO piece.
 
 This concept draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
 

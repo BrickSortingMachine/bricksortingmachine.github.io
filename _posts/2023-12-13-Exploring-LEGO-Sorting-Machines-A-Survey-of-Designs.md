@@ -109,10 +109,9 @@ Vertical Gates turn the principle around and replace the conveyor with a vertica
 
 Pneumatic Sorters use a short, directed blast of air to push the parts off the belt and into the storage bin. They feature very little moving parts and typically use a solenoid valve which can be triggered from GPIO ports. Timing is crucial in order for the parts not to fly sideways into the wrong bin. A belt position encoder (e.g. optically via the wiggly line in Jacques's design) helps measuring the exact belt and thus part position. A belt with lateral cleats (see Eppos Vision System below) helps to keep the parts on course when they fly with the air stream. Jacques Mattheij's machine apparently even adjusts the dose of air based on the respective part size. Finally it is very helpful to use a silent air compressor, since normal ones are quite loud for long term usage. Apart from the compressor noise, personally I think pneumatic sorters at work are super relaxing to watch 😉
 
+{% include figure popup=true image_path="/assets/images/survey/25_jacques_matteij_air.png" alt="From Jacques Mattheij's Sorting two metric tons of lego." caption="From Jacques Mattheij's <a href=\"https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/\" target=\"_blank\">Sorting two metric tons of lego</a>." %}
 
-From Jacques Mattheij's Sorting two metric tons of lego.
-
-From Peter V's The Shape Sifter — First working demonstration.
+{% include figure popup=true image_path="/assets/images/survey/25_jacques_matteij_air.png" alt="From Peter V's The Shape Sifter — First working demonstration." caption="From Peter V's <a href=\"https://www.youtube.com/watch?v=0VHN3AZKY0E\" target=\"_blank\">The Shape Sifter — First working demonstration</a>." %}
 
 From Eppos Vision System's Automatic LEGO sorting machine.
 Rotary Slides again use mechanical servos but instead of just binarily opening or closing a gate they choose one out of many storage locations by pointing a slide towards the target. This design is very efficient in the number of servos required. In theory multiple such slides could even be cascaded.
