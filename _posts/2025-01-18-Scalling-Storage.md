@@ -14,11 +14,11 @@ The motivation is straightforward: LEGO has produced approximately 20,000 differ
 
 **Linear Scaling Limitations**
 
-Traditional storage approaches often scale hardware needs linearly with the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
+Traditional storage approaches scale hardware needs linearly with the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
 
 **A Scalable Approach: Automated Storage and Retrieval Systems (AS/RS)**
 
-To overcome these limitations, I'm exploring an approach with more favorable scaling properties. As always, my priority on sorting speed is low, assuming the machine can operate unattended overnight. The core idea is to invert the process: Instead of the individual bin selecting the part, the part selects its bin.
+To overcome these limitations, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the individual bins fetching the part, the machine fetches the correct bin.
 
 This concept draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
 
