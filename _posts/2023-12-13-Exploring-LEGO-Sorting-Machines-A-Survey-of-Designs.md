@@ -121,15 +121,15 @@ After the correct part type has been identified inside the classification stage.
 
 {% include figure popup=true image_path="/assets/images/survey/29_claus_christiansen_slide.png" alt="From Claus Christiansen's Automated AI LEGO Sorting machine." caption="From Claus Christiansen's <a href=\"https://www.youtube.com/watch?v=vwPZwttLG2A\" target=\"_blank\">Automated AI LEGO Sorting machine</a>." %}
 
-Jörn Schlingensiepen's Lego Automatic Sorting LegoLAS 2 0.
+{% include figure popup=true image_path="/assets/images/survey/30_joerg_schlingensiepen_slide.png" alt="From Jörn Schlingensiepen's Lego Automatic Sorting LegoLAS2.0." caption="From Jörn Schlingensiepen's <a href=\"https://www.youtube.com/watch?v=sCfN5LrUlKc\" target=\"_blank\">Lego Automatic Sorting LegoLAS2.0</a>." %}
 
-From Michael Talarczyk's LEGO Sortierer (Color Sorter ) mit raspberry pi.
-Picking Robots are the final variant of sorting systems. A robotic arm is grabbing the parts, moving over a 2D set of storage locations and dropping it into the respective bin. While such part handling takes more time, the two-dimensional storage matrix allows for an extremely large amount of bins.
+{% include figure popup=true image_path="/assets/images/survey/31_michael_talarczyk_slide.png" alt="From Michael Talarczyk's LEGO Sortierer (Color Sorter) mit raspberry pi." caption="From Michael Talarczyk's <a href=\"https://www.youtube.com/watch?v=jego7nntfAM\" target=\"_blank\">LEGO Sortierer (Color Sorter) mit raspberry pi</a>." %}
 
+**Picking Robots** are the final variant of sorting systems. A robotic arm is grabbing the parts, moving over a 2D set of storage locations and dropping it into the respective bin. While such part handling takes more time, the two-dimensional storage matrix allows for an extremely large amount of bins.
 
-From Tampere University Robotics' LEGO sorting robotwith machine learning.
+{% include figure popup=true image_path="/assets/images/survey/32_tampere_univeristy_robot.png" alt="From Tampere University's Robotic LEGO sorting robotwith machine learning." caption="From Tampere University's <a href=\"https://www.youtube.com/watch?v=qUhMBUhAEMc\" target=\"_blank\">Robotic LEGO sorting robotwith machine learning</a>." %}
 
-RBTX's First automatic Lego™ bricks sorting system.
+{% include figure popup=true image_path="/assets/images/survey/33_rbtx_arm.png" alt="RBTX's First automatic Lego™ bricks sorting system." caption="From RBTX's <a href=\"https://www.youtube.com/watch?v=Gwx8xHtitGA\" target=\"_blank\">First automatic Lego™ bricks sorting system</a>." %}
 
 In the time since I wrote this article new machines continue to be in the making. I'll try to keep up with new advancements in this section.
 
