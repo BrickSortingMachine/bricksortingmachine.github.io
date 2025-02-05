@@ -95,19 +95,19 @@ After part separation, the bricks are transported one by one into the classifica
 ## Stage 4 — Sorted Storage
 After the correct part type has been identified inside the classification stage. The part can be directed to its correct storage location. This can be achieved using one of the following approaches.
 
-Horizontal Gates — Usually a conveyor belt with mechanical arms which direct the part into the intended bucket. The two examples below don't just guide the part but even actively push the parts into the bucket while closing. This allows parts to follow each other more closely on the belt.
+**Horizontal Gates** — Usually a conveyor belt with mechanical arms which direct the part into the intended bucket. The two examples below don't just guide the part but even actively push the parts into the bucket while closing. This allows parts to follow each other more closely on the belt.
 
 {% include figure popup=true image_path="/assets/images/survey/21_neal_anthoons_gates.png" alt="From NealAnthoons's Lego Sorting Machine." caption="From NealAnthoons's <a href=\"https://www.youtube.com/watch?v=6IAMW4N4ohY\" target=\"_blank\">Lego Sorting Machine</a>." %}
 
 {% include figure popup=true image_path="/assets/images/survey/22_gijs_van_haeff_gates.png" alt="From Gijs van Haeff's Universal LEGO Sorting Machine." caption="From Gijs van Haeff's <a href=\"https://www.youtube.com/watch?v=9OO0SsRy6FE\" target=\"_blank\">Universal LEGO Sorting Machine</a>." %}
 
-Vertical Gates turn the principle around and replace the conveyor with a vertical channel through which the parts are falling. A gate directly above the target bin then directs them to the right place. The speed of the falling part is high thus allowing parts to be sorted quickly.
+**Vertical Gates** turn the principle around and replace the conveyor with a vertical channel through which the parts are falling. A gate directly above the target bin then directs them to the right place. The speed of the falling part is high thus allowing parts to be sorted quickly.
 
 {% include figure popup=true image_path="/assets/images/survey/23_johann_rocholl_vertical_gates.png" alt="From Johann Rocholl's Sorting Machine Flap Design." caption="From Johann Rocholl's <a href=\"https://www.youtube.com/watch?v=ZGXZsMSBHzg\" target=\"_blank\">Sorting Machine Flap Design</a>." %}
 
 {% include figure popup=true image_path="/assets/images/survey/24_spencer_huber_vertical_gates.png" alt="From Spencer Hubert's Nexus." caption="From Spencer Hubert's <a href=\"https://github.com/spencerhhubert/nexus\" target=\"_blank\">Nexus</a>." %}
 
-Pneumatic Sorters use a short, directed blast of air to push the parts off the belt and into the storage bin. They feature very little moving parts and typically use a solenoid valve which can be triggered from GPIO ports. Timing is crucial in order for the parts not to fly sideways into the wrong bin. A belt position encoder (e.g. optically via the wiggly line in Jacques's design) helps measuring the exact belt and thus part position. A belt with lateral cleats (see Eppos Vision System below) helps to keep the parts on course when they fly with the air stream. Jacques Mattheij's machine apparently even adjusts the dose of air based on the respective part size. Finally it is very helpful to use a silent air compressor, since normal ones are quite loud for long term usage. Apart from the compressor noise, personally I think pneumatic sorters at work are super relaxing to watch 😉
+**Pneumatic Sorters** use a short, directed blast of air to push the parts off the belt and into the storage bin. They feature very little moving parts and typically use a solenoid valve which can be triggered from GPIO ports. Timing is crucial in order for the parts not to fly sideways into the wrong bin. A belt position encoder (e.g. optically via the wiggly line in Jacques's design) helps measuring the exact belt and thus part position. A belt with lateral cleats (see Eppos Vision System below) helps to keep the parts on course when they fly with the air stream. Jacques Mattheij's machine apparently even adjusts the dose of air based on the respective part size. Finally it is very helpful to use a silent air compressor, since normal ones are quite loud for long term usage. Apart from the compressor noise, personally I think pneumatic sorters at work are super relaxing to watch 😉
 
 {% include figure popup=true image_path="/assets/images/survey/25_jacques_matteij_air.png" alt="From Jacques Mattheij's Sorting two metric tons of lego." caption="From Jacques Mattheij's <a href=\"https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/\" target=\"_blank\">Sorting two metric tons of lego</a>." %}
 
@@ -115,12 +115,11 @@ Pneumatic Sorters use a short, directed blast of air to push the parts off the b
 
 {% include figure popup=true image_path="/assets/images/survey/27_eppos_vision_air.png" alt="From Eppos Vision System's Automatic LEGO sorting machine" caption="From Eppos Vision System's <a href=\"https://www.youtube.com/watch?v=FCiqmOP6NQc\" target=\"_blank\">Automatic LEGO sorting machine</a>." %}
 
-Rotary Slides again use mechanical servos but instead of just binarily opening or closing a gate they choose one out of many storage locations by pointing a slide towards the target. This design is very efficient in the number of servos required. In theory multiple such slides could even be cascaded.
+**Rotary Slides** again use mechanical servos but instead of just binarily opening or closing a gate they choose one out of many storage locations by pointing a slide towards the target. This design is very efficient in the number of servos required. In theory multiple such slides could even be cascaded.
 
+{% include figure popup=true image_path="/assets/images/survey/28_francisco_garcia_slide.png" alt="From Francisco Garcia's Lego Sorter with TensorFlow on Raspberry Pi (First Run)." caption="From Francisco Garcia's <a href=\"https://www.youtube.com/watch?v=uCuQsNwX1QY\" target=\"_blank\">Lego Sorter with TensorFlow on Raspberry Pi</a>." %}
 
-From Francisco Garcia's Lego Sorter with TensorFlow on Raspberry Pi (First Run).
-
-From Claus Christiansen's Automated AI LEGO Sorting machine part 2.
+{% include figure popup=true image_path="/assets/images/survey/29_claus_christiansen_slide.png" alt="From Claus Christiansen's Automated AI LEGO Sorting machine." caption="From Claus Christiansen's <a href=\"https://www.youtube.com/watch?v=vwPZwttLG2A\" target=\"_blank\">Automated AI LEGO Sorting machine</a>." %}
 
 Jörn Schlingensiepen's Lego Automatic Sorting LegoLAS 2 0.
 
