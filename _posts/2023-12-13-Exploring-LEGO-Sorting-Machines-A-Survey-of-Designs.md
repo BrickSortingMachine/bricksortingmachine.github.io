@@ -111,9 +111,10 @@ Pneumatic Sorters use a short, directed blast of air to push the parts off the b
 
 {% include figure popup=true image_path="/assets/images/survey/25_jacques_matteij_air.png" alt="From Jacques Mattheij's Sorting two metric tons of lego." caption="From Jacques Mattheij's <a href=\"https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/\" target=\"_blank\">Sorting two metric tons of lego</a>." %}
 
-{% include figure popup=true image_path="/assets/images/survey/25_jacques_matteij_air.png" alt="From Peter V's The Shape Sifter — First working demonstration." caption="From Peter V's <a href=\"https://www.youtube.com/watch?v=0VHN3AZKY0E\" target=\"_blank\">The Shape Sifter — First working demonstration</a>." %}
+{% include figure popup=true image_path="/assets/images/survey/26_peter_v_air.png" alt="From Peter V's The Shape Sifter — First working demonstration." caption="From Peter V's <a href=\"https://www.youtube.com/watch?v=0VHN3AZKY0E\" target=\"_blank\">The Shape Sifter — First working demonstration</a>." %}
 
-From Eppos Vision System's Automatic LEGO sorting machine.
+{% include figure popup=true image_path="/assets/images/survey/27_eppos_vision_air.png" alt="From Eppos Vision System's Automatic LEGO sorting machine" caption="From Eppos Vision System's <a href=\"https://www.youtube.com/watch?v=FCiqmOP6NQc\" target=\"_blank\">Automatic LEGO sorting machine</a>." %}
+
 Rotary Slides again use mechanical servos but instead of just binarily opening or closing a gate they choose one out of many storage locations by pointing a slide towards the target. This design is very efficient in the number of servos required. In theory multiple such slides could even be cascaded.
 
 
