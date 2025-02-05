@@ -29,6 +29,7 @@ feature_row:
   - image_path: /assets/images/blue.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "/design/Scalling-Storage/"
 ---
 
 {% include feature_row id="intro" type="center" %}
