@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: BrickSortingMachine
-logo: "assets/images/logo_flip_white_bg.jpg"  # You can add own logo. For example "/images/logo.png".
+logo: # You can add own logo. For example "/images/logo.png". (adding logo removes title)
 description: Building a LEGO brick sorting machine
 
 
