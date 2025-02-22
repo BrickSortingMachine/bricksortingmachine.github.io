@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Dann
-logo: # You can add own logo. For example "/images/logo.png".
-description: Multipurpose Jekyll Blog Theme
+title: BrickSortingMachine
+logo: "assets/images/logo_flip_white_bg.jpg"  # You can add own logo. For example "/images/logo.png".
+description: Building a LEGO brick sorting machine
 
 
 #-------------------------------
