@@ -34,7 +34,7 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: This is my story of buidling a LEGO® sorting machine.
+  hero__title: Sorting LEGO bricks by hand is tedious. So I built a robot to do it for me. This is the story how it happened.
 
 
 #-------------------------------
