@@ -9,7 +9,7 @@ description: Building a LEGO brick sorting machine
 # Author Global Settings
 author:
   author__name: BrickSortingMachine
-  author__bio: This project started in June 2022 and remains ongoing. It is strongly inspired by many previous LEGO sorting machines, I'd like to give credit in [this article](https://unsplash.com/photos/BW9ki_tmouE).
+  author__bio: This project started in June 2022 and remains ongoing. It is strongly inspired by many previous LEGO sorting machines, I'd like to give credit in <a href="https://medium.com/@bricksortingmachine/lego-sorting-machine-overview-d390645759f9">this article</a>.
   author__avatar: /assets/images/logo_flip_white_bg.jpg
 
 
