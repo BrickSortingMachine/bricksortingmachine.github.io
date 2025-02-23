@@ -21,12 +21,12 @@ menu__settings:
       url: '/'
     - title: 'About'
       url: '/about/'
-    - title: 'Pages'
-      submenu:
-      - url: '/authors/'
-        title: 'Authors'
-      - url: '/elements/'
-        title: 'Elements'
+#    - title: 'Pages'
+#      submenu:
+#      - url: '/authors/'
+#        title: 'Authors'
+#      - url: '/elements/'
+#        title: 'Elements'
     - title: 'Contact'
       url: '/contact/'
 
@@ -55,7 +55,7 @@ tag:
 #-------------------------------
 # Newsletter Settings
 mailchimp:
-  enable: true
+  enable: false
   mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
   mailchimp__title: Get interesting news
   mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
