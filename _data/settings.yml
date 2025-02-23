@@ -7,10 +7,10 @@ description: Building a LEGO brick sorting machine
 
 #-------------------------------
 # Author Global Settings
-#author:
+author:
 #  author__name: Dann Kanigan
 #  author__bio: Hi there! I’m Dann Kanigan, a Filmmaker and Content Creator based in Toronto, Ontario, Canada. This blog is about learning, life, and inspiring you to take one step forward.
-#  author__avatar: /images/01-1.jpg
+  author__avatar: /assets/images/logo_flip_white_bg.jpg
 
 
 #-------------------------------
@@ -76,10 +76,10 @@ footer__menu__settings:
       url: '/about/'
     - title: 'Contact'
       url: '/contact/'
-    - title: 'Authors'
-      url: '/authors/'
-    - title: 'Elements'
-      url: '/elements/'
+#    - title: 'Authors'
+#      url: '/authors/'
+#    - title: 'Elements'
+#      url: '/elements/'
 
 
 # Social Links
