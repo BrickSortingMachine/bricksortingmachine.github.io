@@ -86,8 +86,9 @@ footer__menu__settings:
 social:
 - {icon: "ion-logo-youtube", color: "#ff0000", name: Youtube, link: "https://youtube.com/@bricksortingmachine"}
 - {icon: "ion-logo-instagram", color: "#e4405f", name: Instagram, link: "https://www.instagram.com/bricksortingmachine"}
-- {icon: "ion-logo-github", color: "#e4405f", name: GitHub, link: "https://github.com/BrickSortingMachine"}
-- {icon: "ion-logo-discord", color: "#e4405f", name: Discord, link: "https://discord.com/users/1193229221863108698"}
+- {icon: "ion-logo-github", color: "#ffffff", name: GitHub, link: "https://github.com/BrickSortingMachine"}
+- {icon: "ion-logo-discord", color: "#4A61FC", name: Discord, link: "https://discord.com/users/1193229221863108698"}
+- {icon: "ion-logo-discord", color: "#4A61FC", name: Discord, link: "https://bsky.app/profile/bricksortmachine.bsky.social"}
 #- {icon: "ion-logo-twitter", color: "#55acee", name: Twitter, link: "https://twitter.com"}
 #- {icon: "ion-logo-facebook", color: "#3b5999", name: Facebook, link: "https://facebook.com"}
 #- {icon: "ion-logo-pinterest", color: "#bd081c", name: Pinterest, link: "https://pinterest.com"}
