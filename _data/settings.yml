@@ -34,7 +34,7 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Sorting LEGO bricks by hand is tedious. So I built a robot to do it for me. This is the story how it happened.
+  hero__title: Sorting LEGO bricks by hand is tedious, so we need robots for the job! Here's the story of how I built one.
 
 
 #-------------------------------
