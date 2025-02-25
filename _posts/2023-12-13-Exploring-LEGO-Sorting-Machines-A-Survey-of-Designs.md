@@ -1,23 +1,19 @@
 ---
 layout: post
 title: "Exploring LEGO Sorting Machines: A Survey of Designs"
-description: There are countless ingenious LEGO sorting machines online, so I set out to create a systematic overview of the design approaches.
-date: 2023-12-13 12:00:00 +0000
+description: There are countless ingenious LEGO sorting machines online, so I set out to create a systematic overview of the designs.
+date: 2023-12-13 12:00:00 +0100
 author: bsm
 image: '/assets/images/survey/01_collage.png'
 image_caption: 'Collage of sorting machines'
 tags: [explore]
 featured: true
 ---
-Probably the best-known LEGO sorter is Daniel West's "<a href="https://www.youtube.com/watch?v=04JkdHEX3Yk" target="_blank">Universal LEGO Sorting Machine</a>". According to Daniel, his work is inspired by Akiyuki's "<a href="https://www.youtube.com/watch?v=6lZ9rSZwDzE" target="_blank">NXT Vision Guided Brick Sorter</a>" and Jacques Mattheij's <a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Sorting two metric tons of lego</a>. Focusing on hardware, all three machines show a similar four stage design:
+Probably the best-known LEGO sorter is Daniel West's <a href="https://www.youtube.com/watch?v=04JkdHEX3Yk" target="_blank">Universal LEGO Sorting Machine</a>. His work was inspired by Akiyuki's <a href="https://www.youtube.com/watch?v=6lZ9rSZwDzE" target="_blank">NXT Vision Guided Brick Sorter</a> and Jacques Mattheij's <a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Sorting two metric tons of lego</a>. Focusing on hardware, all three machines show a similar four stage design:
 
-**Bulk storage → Part separation → Classification → Sorted storage**
-{: .notice--info}
+**Bulk Storage → Part Separation → Classification → Sorted Storage**
 
 The following overview will look at a larger field of machines and show the creative variety in designing each stage.
-
-![The WORLD'S FIRST Universal LEGO Sorting Machine]({{site.baseurl}}/assets/images/survey/01_collage.png){:loading="lazy"}
-*Collage of sorting machines*
 
 ## Stage 1 — Bulk Storage
 In bulk storage you have a large amount of unsorted, entangled bricks and the goal is to feed it to the machine progressively. There are two typical designs used for bulk brick storage. Nr. 1 is what I call the "belt slowly moving under pile of bricks" type. Two nice examples can be seen with Daniel's and Jacques Mattheij's machines.
@@ -166,11 +162,10 @@ After the correct part type has been identified inside the classification stage.
 ![First automatic Lego™ bricks sorting system]({{site.baseurl}}/assets/images/survey/33_rbtx_arm.png){:loading="lazy"}
 *From RBTX's [First automatic Lego™ bricks sorting system](https://www.youtube.com/watch?v=Gwx8xHtitGA)*
 
-In the time since I wrote this article new machines continue to be in the making. I'll try to keep up with new advancements in this section.
 
 ## Recent Updates
 
-In this section I am trying to keep up with recently published new machines.
+In the time since I wrote this article new machines continue to be in the making. In this section I am trying to keep up with recently published machines.
 
 ### 2023–12–27
 360er0/awesome-lego-machine-learning gives a great overview on LEGO machine learning projects including many sorting machines.
@@ -178,25 +173,30 @@ In this section I am trying to keep up with recently published new machines.
 ### 2024–03–13
 Freakstuff published a video on his automatic sorting machine. What's special about this project is, that it is purely mechanical. It sorts LEGO parts by size. This is both very useful for subsequent manual sorting and as a preceding step for automated shape sorting. In shape sorting, part separation is a very hard task which gets much easier if parts are pre-sorted to be similar in size.
 
+![Freakstuff's automatic sorting machine (German)]({{site.baseurl}}/assets/images/survey/36_freakstuff.webp){:loading="lazy"}
+*From Freakstuff's [automatic sorting machine (German)](https://www.youtube.com/watch?v=AhR8x4PuMIM)*
 
-Freakstuff's automatic sorting machine (German).
 Looking at the design in detail, the 4 typical stages are still apparent even though being grouped in an interesting way.
 
 Bulk storage is organized as a wooden crate with a step feeder which ensures a constant in-flow of parts. The step is oriented parallel to a conveyor belt. With each stroke the step releases a well defined portion of bricks in longitudinal sequence onto the conveyor. This realizes the required part separation.
 
+![Freakstuff's step feeder]({{site.baseurl}}/assets/images/survey/37_freakstuff.webp){:loading="lazy"}
+*Freakstuff's step feeder*
 
-Freakstuff's step feeder
 Part classification (in terms of part size) is implemented using a sequence of sieve tubes featuring progressively larger openings. Small parts fall through the openings in the early stages, larger parts get transported further on to fall into a later bin.
 
 The sieve openings are designed in a spiral shape. This is a very interesting choice which according to freakstuff is key for the parts to progress through the tubes in a continuous motion.
 
+![Freakstuff's spiral shaped sieve tubes]({{site.baseurl}}/assets/images/survey/38_freakstuff.webp){:loading="lazy"}
+*Freakstuff's spiral shaped sieve tubes*
 
-Freakstuff's spiral shaped sieve tubes.
 According to Freakstuff, his machine is already used in production in his BrickLink store, followed by manual sorting for individual parts. He is planning to extend the setup by a visual classification based auto sorting stage. Classification shall be realized via the the brickognize web service. In general it will remain interesting to follow the project on his channel.
 
 ### 2024–05–21
 In a parallel development, Smyrnoff Specialist Lego Parts has also been working on a fully mechanical sorter since January of this year. The design is similar to Freakstuff's approach, utilizing tube modules with progressively larger dimensions for part sorting. Each module incorporates a spiral shape for efficient part transport. This machine is constructed from a combination of LEGO elements as well as 3D printed components.
 
-Sorter for LEGO® bricks by Smyrnoff Specialist Lego Parts.
-Feedback and Contact
-If you are also currently in the process of building a sorting machine I would love to hear from you. Also if you would like to add a missing machine/design to this list please contact me. In all cases I am easiest to reach via DM as BrickSortingMachine on Instagram.
+![Sorter for LEGO® bricks by Smyrnoff Specialist Lego Parts]({{site.baseurl}}/assets/images/survey/39_smyrnoff.webp){:loading="lazy"}
+*[Sorter for LEGO® bricks](https://www.instagram.com/p/C6RwE0trDwt) by Smyrnoff Specialist Lego Parts*
+
+## Feedback and Contact
+If you are also currently in the process of building a sorting machine I would love to hear from you. Also if you would like to add a missing machine/design to this list please contact me. In all cases I am easiest to reach via DM as [BrickSortingMachine](https://www.instagram.com/bricksortingmachine) on Instagram.
