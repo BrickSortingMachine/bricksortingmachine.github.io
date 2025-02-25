@@ -26,15 +26,16 @@ Thus I learned to keep the mass low which led to the second design iteration bui
   <em>First variants of the cardboard slide</em>
 </div>
 
-On the electronics side, the slide is actuated by 360° Geekservos. Out of the box they are LEGO compatible so no adapters had to be made. The servos are controlled by an Arduino Nano. The code of the slide controller (and the full machine) is available on github. It uses the excellent ServoEasing library which enables smooth acceleration curves. The Arduino receives its motion commands via USB/serial by the serial service of the sorting machine stack (sorting machine architecture).
+On the electronics side, the slide is actuated by [360° Geekservos](https://eckstein-shop.de/Keyestudio-2KG-Gray-Servo-270-33V-to-6V). Out of the box they are LEGO compatible so no adapters had to be made. The servos are controlled by an Arduino Nano. The code of the slide controller (and the full machine) is available on [GitHub](https://github.com/BrickSortingMachine/BrickSortingMachine-sorter). It uses the excellent [ServoEasing library](https://www.arduino.cc/reference/en/libraries/servoeasing) which enables smooth acceleration curves. The Arduino receives its motion commands via USB/serial by the serial service of the sorting machine stack ([sorting machine architecture]({{site.baseurl}}/system-architecture-of-the-lego-sorting-machine)).
 
-Going 2D
+## Going 2D
 Right from the beginning I wanted the slide to operate in 2 dimensions. Thus not just rotate but also pitch. This would at least double the amount of reachable storage bins. To realize this, both the slide and the storage containers had to be modified.
 
 On the slide, the change was simple. I mounted a second servo onboard the rotating platform. Via a gear reduction the servo drives two arms which pitch the slide up and down. The motion is quick and precise and the mechanics integrate nicely into the existing design.
 
+![Animated photo of the slide pitching mechanics]({{site.baseurl}}/assets/images/rotating-slide/slide_pitch_mechanics_960x540.gif){:loading="lazy"}
+*Slide pitch mechanics*
 
-Slide pitch mechanics
 The work on the storage bins was more extensive. The primary goal was to pack as many bins as possible around the slide in an almost full circle. To achieve this, the bins needed to be as narrow as possible while still allowing parts to fall in reliably. The initial prototypes of these 2-level chutes were designed in FreeCAD and built from cardboard. This approach enabled rapid iterations on the dimensions, yielding first promising results.
 
 
