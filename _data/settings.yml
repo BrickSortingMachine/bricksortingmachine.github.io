@@ -22,7 +22,7 @@ menu__settings:
     - title: 'My Build'
       url: '/tags/?tag=build'
     - title: 'Sorter Community'
-      url: '/tags/?tag=explore'
+      url: '/tags/?tag=community'
     - title: 'About'
       url: '/about/'
 #    - title: 'Pages'
