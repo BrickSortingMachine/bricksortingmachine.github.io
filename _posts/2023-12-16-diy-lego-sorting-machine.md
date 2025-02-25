@@ -11,7 +11,7 @@ featured: true
 ---
 The [preceding article]({{site.baseurl}}/exploring-lego-sorting-machines-a-survey-of-designs) provided a comprehensive overview of the wide range of existing LEGO sorting machines. Joining the release video below, this article will look into the details and individual components of our specific sorting machine, explaining the rationale behind various design decisions.
 
-<p><iframe src="https://www.youtube.com/watch?v=FRHMMGDMjuQ" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/FRHMMGDMjuQ?si=CGcTTlynZEoe7O72" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 Constructing a complete sorting machine requires developing a long list of components and addressing various design challenges. Given that this is a hobby project, there was a strong need to minimize development time and effort to achieve a functional system within a reasonable timeframe. The foundational decision thus was to construct the machine out of LEGO components itself. This safes on part manufacturing and enables rapid cycles of design and testing. Achieving long-term durability and high operational uptime presents a challenge when using standard LEGO parts. For this reason, the design incorporates non-LEGO components, such as [metal gear motors](https://www.reichelt.de/getriebemotor-27-mm-90-1-12-v-dc-gm27-90-12v-p159631.html?nbc=1), [LEGO compatible metal gears or axles](https://metal-technic-parts.com) and [rubber conveyor bands](https://www.ebay.de/itm/334604695326), where necessary.
 
