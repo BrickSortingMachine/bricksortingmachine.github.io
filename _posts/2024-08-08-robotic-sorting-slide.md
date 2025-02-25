@@ -38,15 +38,21 @@ On the slide, the change was simple. I mounted a second servo onboard the rotati
 
 The work on the storage bins was more extensive. The primary goal was to pack as many bins as possible around the slide in an almost full circle. To achieve this, the bins needed to be as narrow as possible while still allowing parts to fall in reliably. The initial prototypes of these 2-level chutes were designed in FreeCAD and built from cardboard. This approach enabled rapid iterations on the dimensions, yielding first promising results.
 
+![Photo of Cardboard prototype of the 2-level chutes]({{site.baseurl}}/assets/images/rotating-slide/cardboard_prototype.webp){:loading="lazy"}
+*Cardboard prototype of the 2-level chutes ([see video](https://www.youtube.com/watch?v=7KCp_zvolrM))*
 
-Cardboard prototype of the 2-level chutes (see video)
-After the design was validated in cardboard, the work took a little bit of a detour since I started getting into 3D printing. This allowed the design of the chutes to be much more refined. It still features two channels which now separate at the bottom and change shape into round tubes. They are round because it is intended to hang round cloth tubes (they look almost like socks) beneath them in order to store sorted parts. The chute design also features mounting holders to mount them inside a cutout of the tabletop board. The CAD design files are available here.
+After the design was validated in cardboard, the work took a little bit of a detour since I started getting into 3D printing. This allowed the design of the chutes to be much more refined. It still features two channels which now separate at the bottom and change shape into round tubes. They are round because it is intended to hang round cloth tubes (they look almost like socks) beneath them in order to store sorted parts. The chute design also features mounting holders to mount them inside a cutout of the tabletop board. The CAD design files are available [here](https://cad.onshape.com/documents/f2c26ce89caaf473dfff022a/w/77e670c4a7d98f879599aa89/e/0598b82d782f27f539adf67f).
 
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/cad.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/print.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/circle.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/group.webp" loading="lazy">
+  </div>
+  <em>Onshape drawing, printing and arrangement of the redesigned chutes</em>
+</div>
 
-
-
-
-Onshape drawing, printing and arrangement of the redesigned chutes
 For the mounting of the chutes the tabletop board had to be modified heavily. The board is made from OSB wood. It features a C-shape cutout into which the chutes get mounted from below. The center wood circle is supported from one side only, thus utilizing approximately 300° of the full circle.
 
 
