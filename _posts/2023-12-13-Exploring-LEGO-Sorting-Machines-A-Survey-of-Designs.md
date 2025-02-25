@@ -25,7 +25,8 @@ In bulk storage you have a large amount of unsorted, entangled bricks and the go
 ![The WORLD'S FIRST Universal LEGO Sorting Machine]({{site.baseurl}}/assets/images/survey/02_daniel_west_bulk.png){:loading="lazy"}
 *From Daniel West's [The WORLD'S FIRST Universal LEGO Sorting Machine](https://www.youtube.com/watch?v=04JkdHEX3Yk)*
 
-{% include figure popup=true image_path="/assets/images/survey/03_jaques_mattheij_bulk.png" alt="From Jacques Mattheij's Sorting two metric tons of lego." caption="From Jacques Mattheij's Sorting two metric tons of lego." %}
+![Sorting two metric tons of lego.]({{site.baseurl}}/assets/images/survey/03_jaques_mattheij_bulk.png){:loading="lazy"}
+*From Jacques Mattheij's Sorting two metric tons of lego.*
 
 While in Daniel's Design, we have a narrow bulk storage where the full width of the ground is transporting bricks, Jacques's machine features small 1x4 tiles being glued to the belt. As a result only the small middle part is feeding a small amount of bricks to the machine. If you want to learn more about these two machines, both Daniel (<a href="https://towardsdatascience.com/a-high-speed-computer-vision-pipeline-for-the-universal-lego-sorting-machine-253f5a690ef4" target="_blank">here</a> and <a href="https://towardsdatascience.com/how-i-created-over-100-000-labeled-lego-training-images-ec74191bb4ef" target="_blank">here</a>) and Jacques published additional background information (<a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Part 1</a>, <a href="https://jacquesmattheij.com/sorting-lego-the-software-side/" target="_blank">Part 2</a> and <a href="https://jacquesmattheij.com/sorting-lego-many-questions-and-this-is-what-the-result-looks-like/" target="_blank">Part 3</a>).
 
@@ -45,7 +46,7 @@ The task of part separation is to take the entangled stream of bricks and separa
 
 **Chicaning Conveyors** are belts with diagonal barriers which force the parts on the conveyor to align sequentially. The delicious video below shows the chicanes being used in the food industry.
 
-{% include video id="CrGrcaJoyws" provider="youtube" %}
+<p><iframe src="https://www.youtube.com/embed/CrGrcaJoyws" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 Here are nice examples of chicaning conveyors in Lego sorting machines.
 
