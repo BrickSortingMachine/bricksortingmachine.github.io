@@ -1,32 +1,14 @@
 ---
 layout: post
-title: "Exploring LEGO Sorting Machines: A Survey of Designs"
-description: There are countless ingenious LEGO sorting machines online, so I set out to create a systematic overview of the designs.
-date: 2023-12-13 12:00:00 +0100
+title: "DIY LEGO Sorting Machine"
+description: The first video of the machine is released - let me give some background on the design choices of my build.
+date: 2023-12-16 12:00:00 +0100
 author: bsm
-image: '/assets/images/survey/01_collage.png'
-image_caption: 'Collage of sorting machines'
-tags: [community]
+image: '/assets/images/intro-own/04_scanner.webp'
+image_caption: 'View into the LEGO brick scanner'
+tags: [build]
 featured: true
 ---
-Probably the best-known LEGO sorter is Daniel West's <a href="https://www.youtube.com/watch?v=04JkdHEX3Yk" target="_blank">Universal LEGO Sorting Machine</a>. His work was inspired by Akiyuki's <a href="https://www.youtube.com/watch?v=6lZ9rSZwDzE" target="_blank">NXT Vision Guided Brick Sorter</a> and Jacques Mattheij's <a href="https://jacquesmattheij.com/sorting-two-metric-tons-of-lego/" target="_blank">Sorting two metric tons of lego</a>. Focusing on hardware, all three machines show a similar four stage design:
-
-**Bulk Storage → Part Separation → Classification → Sorted Storage**
-
-The following overview will look at a larger field of machines and show the creative variety in designing each stage.
-
-## Stage 1 — Bulk Storage
-In bulk storage you have a large amount of unsorted, entangled bricks and the goal is to feed it to the machine progressively. There are two typical designs used for bulk brick storage. Nr. 1 is what I call the "belt slowly moving under pile of bricks" type. Two nice examples can be seen with Daniel's and Jacques Mattheij's machines.
-
-![The WORLD'S FIRST Universal LEGO Sorting Machine]({{site.baseurl}}/assets/images/survey/02_daniel_west_bulk.png){:loading="lazy"}
-*From Daniel West's [The WORLD'S FIRST Universal LEGO Sorting Machine](https://www.youtube.com/watch?v=04JkdHEX3Yk)*
-
-![Sorting two metric tons of lego.]({{site.baseurl}}/assets/images/survey/03_jaques_mattheij_bulk.png){:loading="lazy"}
-*From Jacques Mattheij's Sorting two metric tons of lego.*
-
-
-
-
 The [preceding article]({{site.baseurl}}/exploring-lego-sorting-machines-a-survey-of-designs) provided a comprehensive overview of the wide range of existing LEGO sorting machines. Joining the release video below, this article will look into the details and individual components of our specific sorting machine, explaining the rationale behind various design decisions.
 
 <p><iframe src="https://www.youtube.com/watch?v=FRHMMGDMjuQ" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
