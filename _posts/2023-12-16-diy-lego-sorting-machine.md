@@ -54,8 +54,8 @@ Latency is a crucial factor in this system. If the parts are too closely spaced,
 ## Scanner
 Following the part separation stage, individual LEGO bricks are conveyed to the scanner for recognition and classification. The scanning system is solely camera-based, featuring a conveyor belt that transports the LEGO bricks past the camera.
 
-![View through the scanner towards v-channel with mirror and camera]({{site.baseurl}}/assets/images/intro-own/04_scanner.webp){:loading="lazy"}
-*View through the scanner towards v-channel with mirror and camera*
+![View through the scanner towards the v-channel with mirror and camera]({{site.baseurl}}/assets/images/intro-own/04_scanner.webp){:loading="lazy"}
+*View through the scanner towards the v-channel with mirror and camera*
 
 The design of the scanner adopts a key idea from Johann Rocholl’s [Conveyor belt for LEGO sorting](https://www.youtube.com/watch?v=o-FL02ePFEU). The solution consists of a single camera paired with a mirror, allowing the machine to capture two different perspectives simultaneously. The core motivation behind this is to capture the LEGO parts from multiple perspectives, as some parts are difficult to identify when viewed from certain angles. Choosing a mirror over multiple cameras not only simplifies the overall design but also ensures synchronization between the captured images. Additionally, it significantly reduces the computational and bus load.
 
