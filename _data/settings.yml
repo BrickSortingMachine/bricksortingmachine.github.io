@@ -19,7 +19,9 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Explore Designs'
+    - title: 'My Build'
+      url: '/tags/?tag=build'
+    - title: 'Sorter Community'
       url: '/tags/?tag=explore'
     - title: 'About'
       url: '/about/'
