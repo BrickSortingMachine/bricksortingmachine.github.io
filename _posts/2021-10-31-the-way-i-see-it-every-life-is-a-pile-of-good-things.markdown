@@ -7,7 +7,7 @@ author: craig
 image: '/images/11.jpg'
 image_caption: 'Photo by [Marvin Meyer](https://unsplash.com/photos/fQgRGhMRoEo) on [Unsplash](https://unsplash.com/)'
 tags: [lifestyle, travel, rest]
-featured: true
+featured: false
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
