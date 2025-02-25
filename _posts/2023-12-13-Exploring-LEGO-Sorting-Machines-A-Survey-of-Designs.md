@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exploring LEGO Sorting Machines: A Survey of Designs"
-description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. 
+description: There are countless ingenious LEGO sorting machines online, so I set out to create a systematic overview of the various design approaches
 date: 2023-12-13 12:00:00 +0000
 author: bsm
 image: '/assets/images/survey/01_collage.png'
