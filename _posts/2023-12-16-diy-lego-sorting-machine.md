@@ -4,7 +4,7 @@ title: "DIY LEGO Sorting Machine"
 description: The first video of the machine is released - let me give some background on the design choices of my build.
 date: 2023-12-16 12:00:00 +0100
 author: bsm
-image: '/assets/images/intro-own/04_scanner.webp'
+image: '/assets/images/intro-own/Scanner2.png'
 image_caption: 'View into the LEGO brick scanner'
 tags: [build]
 featured: true
