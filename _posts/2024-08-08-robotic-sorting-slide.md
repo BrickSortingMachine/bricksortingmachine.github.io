@@ -55,13 +55,19 @@ After the design was validated in cardboard, the work took a little bit of a det
 
 For the mounting of the chutes the tabletop board had to be modified heavily. The board is made from OSB wood. It features a C-shape cutout into which the chutes get mounted from below. The center wood circle is supported from one side only, thus utilizing approximately 300° of the full circle.
 
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/garden.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/construct.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/chutes_side.webp" loading="lazy">
+    <img src="{{site.baseurl}}/assets/images/rotating-slide/socks.webp" loading="lazy">
+  </div>
+  <em>Mounting of the 2-level chutes inside the tabletop board — cloth storage “socks” added on the bottom right</em>
+</div>
 
-
-
-
-Mounting of the 2-level chutes inside the tabletop board — cloth storage “socks” added on the bottom right.
 After the chutes were mounted, the cloth “socks” could be added as well. They just fit over the round end of the chutes. A rubber band holds them in place while locking on to the rim.
 
+![Photo of the complete machine as of today]({{site.baseurl}}/assets/images/rotating-slide/full_view.jpg){:loading="lazy"}
+*View of the complete machine as of today*
 
-View of the complete machine as of today.
-This is the final view of the completed new design. I am super happy with it because it reduces manual handling efforts significantly and thus causes the machine to be running more often. The 22 bins fit our 20 bin sorting concept perfectly (+1 bin for parts with low confidence classification). I'll make sure to create a video soon, until then you can reach me via DM as BrickSortingMachine on Instagram. If you are interested in LEGO® sorting machines in general you might also want to join the fabulous Discord server of the Great Brick Lab where frequent exchange is happening.
+This is the final view of the completed new design. I am super happy with it because it reduces manual handling efforts significantly and thus causes the machine to be running more often. The 22 bins fit our 20 bin sorting concept perfectly (+1 bin for parts with low confidence classification). I'll make sure to create a video soon, until then you can reach me via DM as [BrickSortingMachine on Instagram](https://www.instagram.com/bricksortingmachine/). If you are interested in LEGO® sorting machines in general you might also want to join the fabulous Discord server of the Great Brick Lab where frequent exchange is happening.
