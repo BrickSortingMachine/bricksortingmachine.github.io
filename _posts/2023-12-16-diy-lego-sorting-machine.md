@@ -7,7 +7,7 @@ author: bsm
 image: '/assets/images/intro-own/Scanner2.png'
 image_caption: 'View into the LEGO brick scanner'
 tags: [build]
-featured: false
+featured: true
 ---
 The [preceding article]({{site.baseurl}}/exploring-lego-sorting-machines-a-survey-of-designs) provided a comprehensive overview of the wide range of existing LEGO sorting machines. Joining the release video below, this article will look into the details and individual components of our specific sorting machine, explaining the rationale behind various design decisions.
 
