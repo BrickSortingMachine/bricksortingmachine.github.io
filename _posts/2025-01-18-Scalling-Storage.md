@@ -17,7 +17,8 @@ Storage approaches typically scale hardware needs linearly in the number of bins
 
 To overcome this limitation, I'm exploring an approach with more favorable scaling properties. It draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
 
-[Insert Image: A picture of a typical AS/RS warehouse system. Examples can be found by searching "ASRS warehouse" on image search engines.]
+![Photo of an automated highbay warehouse]({{site.baseurl}}/assets/images/asrs/arno-senoner-warehouse-wide.jpg){:loading="lazy"}
+*An automated highbay warehouse (photo by [Arno Senoner](https://unsplash.com/@arnosenoner?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/blue-and-brown-metal-bridge-yqu6tJkSQ_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash))*
 
 Many DIY AS/RS projects have emerged within the maker community, demonstrating the feasibility of adapting this technology for smaller-scale applications. These projects often utilize readily available components like stepper motors, linear rails, and microcontrollers.
 
