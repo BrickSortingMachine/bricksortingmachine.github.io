@@ -6,7 +6,7 @@ date: 2024-08-08 12:00:00 +0100
 author: bsm
 image: '/assets/images/rotating-slide/slide_and_scanner.gif'
 image_caption: 'Robotic slide guiding the classified bricks'
-tags: [build]
+tags: [build, update]
 featured: false
 ---
 The goal of this rebuild is to maximize the machine’s operation time by allowing it to run unattended for longer periods without human support. This includes simplifying and accelerating human maintenance, such as refilling unsorted parts and emptying storage containers for sorted LEGO® bricks. There are [many possible options]({{site.baseurl}}/exploring-lego-sorting-machines-a-survey-of-designs) for designing the sorted storage: Conveyor belts, horizontal/vertical gates, pneumatic/mechanical approaches, etc. To reduce complexity, space and hardware requirements, I decided to follow the simple rotational slide design principle.
