@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scaling Up LEGO Brick Storage for Large-Scale Sorting"
-description: Let's explore the idea of significantly expanding the amount of storage bins - to 100, 200, or potentially thousands of bins.
+description: Let's explore the idea of significantly expanding the amount of sorted storage bins - to 100, 200, or potentially thousands of bins.
 date: 2025-01-18 12:00:00 +0100
 author: bsm
 image: '/assets/images/asrs/complete.gif'
@@ -9,15 +9,13 @@ image_caption: 'CAD drawing of the automated storage and retrival system'
 tags: [build, update, asrs]
 featured: false
 ---
-The motivation is straightforward: LEGO has produced approximately 20,000 different parts (including variations such as color). To advance sorting machines beyond handling part classes and enable sorting by individual part IDs, the number of discrete storage locations must increase drastically.
+The motivation is straightforward: LEGO so far has produced approximately 20,000 different parts (including variations such as color). To advance sorting machines beyond handling part classes and enable sorting by individual part IDs, the number of discrete storage locations must strongly increase.
 
 Storage approaches typically scale hardware needs linearly in the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
 
 **A Scalable Approach: Automated Storage and Retrieval Systems (AS/RS)**
 
-To overcome this limitation, I'm exploring an approach with more favorable scaling properties. The core idea is to invert the process: Instead of the bins picking identified parts, the machine goes and fetches the matching bin for each LEGO piece.
-
-This concept draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
+To overcome this limitation, I'm exploring an approach with more favorable scaling properties. It draws inspiration from large-scale warehouse storage, specifically Automated Storage and Retrieval Systems (AS/RS). These systems efficiently manage vast quantities of goods using automated cranes or shuttles to retrieve items from dense storage racks.
 
 [Insert Image: A picture of a typical AS/RS warehouse system. Examples can be found by searching "ASRS warehouse" on image search engines.]
 
