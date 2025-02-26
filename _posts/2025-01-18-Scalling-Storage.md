@@ -1,15 +1,14 @@
 ---
 layout: post
 title: "Scaling Up LEGO Brick Storage for Large-Scale Sorting"
-description: The final stage of every LEGO sorting machine involves a system that places classified parts into the designated storage bins. While typical setups contain around 10 to 40 individual bins, this article explores the idea of significantly expanding this capacity - to 100, 200, or potentially thousands of bins.
+description: Let's explore the idea of significantly expanding the amount of storage bins - to 100, 200, or potentially thousands of bins.
 date: 2025-01-18 12:00:00 +0100
 author: bsm
 image: '/assets/images/asrs/complete.gif'
-image_caption: 'Robotic slide guiding the classified bricks'
+image_caption: 'CAD drawing of the automated storage and retrival system'
 tags: [build, update, asrs]
 featured: false
 ---
-
 The motivation is straightforward: LEGO has produced approximately 20,000 different parts (including variations such as color). To advance sorting machines beyond handling part classes and enable sorting by individual part IDs, the number of discrete storage locations must increase drastically.
 
 Storage approaches typically scale hardware needs linearly in the number of bins. For example, a <a href="/survey/Exploring-LEGO-Sorting-Machines-A-Survey-of-Designs/#stage-4--sorted-storage">belt-and-gate system</a> requires one dedicated gate and servo for each storage location. This quickly becomes infeasible as the number of bins increases, leading to complex and expensive machines.
