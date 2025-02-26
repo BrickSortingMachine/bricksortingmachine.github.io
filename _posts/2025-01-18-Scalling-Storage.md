@@ -20,9 +20,12 @@ To overcome this limitation, I'm exploring an approach with more favorable scali
 ![Photo of an automated highbay warehouse]({{site.baseurl}}/assets/images/asrs/arno-senoner-warehouse-wide.jpg){:loading="lazy"}
 *An automated highbay warehouse (photo by [Arno Senoner](https://unsplash.com/@arnosenoner?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/blue-and-brown-metal-bridge-yqu6tJkSQ_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash))*
 
-Many DIY AS/RS projects have emerged within the maker community, demonstrating the feasibility of adapting this technology for smaller-scale applications. These projects often utilize readily available components like stepper motors, linear rails, and microcontrollers.
+Many DIY AS/RS projects have emerged within the maker community, demonstrating the feasibility of adapting this technology for smaller-scale applications. These projects often utilize readily available components like e.g. CNC controllers.
+
+<p><iframe src="https://www.youtube.com/embed/ksVe7vame3Q" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 [Insert Image: A conceptual image showing a LEGO sorting machine in the foreground with a simplified AS/RS system behind it. The sorting machine's output feeds into the AS/RS system. This could be a simple 2D drawing or a more elaborate 3D render.]
+
 
 **Retrieval Times and Buffer Considerations**
 
