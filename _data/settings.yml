@@ -9,7 +9,7 @@ description: Building a LEGO brick sorting machine
 # Author Global Settings
 author:
   author__name: BrickSortingMachine
-  author__bio: This project started in June 2022 and remains ongoing. It is strongly inspired by many previous LEGO sorting machines, I'd like to give credit in <a href="https://medium.com/@bricksortingmachine/lego-sorting-machine-overview-d390645759f9" style="color:white">this article</a>.
+  author__bio: This project started in June 2022 and remains ongoing. It is strongly inspired by many previous LEGO sorting machines, I'd like to give credit in <a href="https://bricksortingmachine.com/exploring-lego-sorting-machines-a-survey-of-designs" style="color:white">this article</a>.
   author__avatar: /assets/images/logo_flip_white_bg.jpg
 
 
@@ -19,6 +19,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'My Build'
+      url: '/tags/?tag=build'
+    - title: 'Sorter Community'
+      url: '/tags/?tag=community'
     - title: 'About'
       url: '/about/'
 #    - title: 'Pages'
@@ -40,14 +44,14 @@ hero:
 #-------------------------------
 # Blog Settings
 blog:
-  blog__title: Blog & Resources
-  blog__description: Find out how to set up a successful blog or how to make yours even better!
+  blog__title: Blog
+#  blog__description: Find out how to set up a successful blog or how to make yours even better!
 
 
 #-------------------------------
 # Recommended Tag Settings
 tag:
-  enable: true
+  enable: false
   tag__title: Recommended
   tag__name: Motivation
 
